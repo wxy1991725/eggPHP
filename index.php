@@ -29,9 +29,6 @@ $config = Tools::import(RUN_DIR . APP_MODE . DS . 'config.php', true);
  */
 Tools::import(CORE_DIR . 'App.php'); 
 
-
-
-
 /**
  * 核心类初始化
  */
