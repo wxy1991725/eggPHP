@@ -36,6 +36,6 @@ App::init($config);
 /**
  * 项目运行
  */
-App::run(11111);
+App::run();
 
 ?>
