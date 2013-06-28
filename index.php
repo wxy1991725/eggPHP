@@ -27,7 +27,9 @@ $config = Tools::import(RUN_DIR . APP_MODE . DS . 'config.php', true);
 /*
  * 核心类导入
  */
-Tools::import(CORE_DIR . 'App.php');
+Tools::import(CORE_DIR . 'App.php'); 
+
+
 
 
 /**
