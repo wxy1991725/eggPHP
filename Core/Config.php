@@ -19,7 +19,7 @@ final class Config {
     private $_user_config = array();
 
     /**
-     * 生产出配置类
+     * 取得配置类的实例，无则创建一个
      * @param type $config 载入
      * @return Config  配置对象
      */
@@ -31,7 +31,7 @@ final class Config {
             return $_self;
         }
     }
-
+    
     /**
      * 显示配置列表
      * @return array 配置数组 

@@ -27,7 +27,8 @@ final class App {
         'Config' => 'Core/Config.php',
         'Router' => 'Core/Router.php',
         'Uri' => 'Core/Uri.php',
-        'Debug'=>'Core/Debug.php'
+        'Debug' => 'Core/Debug.php',
+        'Log' => 'Core/Log.php'
     );
 
     /**
@@ -51,11 +52,33 @@ final class App {
      * 运行项目
      */
     static public function run() {
-        ;
+        ob_end_clean();
     }
 
     static public function appError($errno, $errstr, $errfile, $errline) {
-        
+        switch ($errno) {
+            case E_NOTICE://警告仅仅记录
+//                Debug::halt($errno, $errstr, $errfile, $errline);
+//                Log::save();
+//                Log::clearError();
+                break;
+            case E_ERROR:
+            case E_PARSE:
+            case E_CORE_ERROR:
+            case E_COMPILE_ERROR:
+            case E_USER_ERROR:
+                ob_end_clean();
+                $log = Debug::halt($errno, $errstr, $errfile, $errline);
+                Log::save();
+                Debug::displayError($log);
+                break;
+            case E_STRICT:
+            case E_USER_WARNING:
+            case E_USER_NOTICE:
+            default:
+                Debug::halt($errno, $errstr, $errfile, $errline);
+                break;
+        }
     }
 
     /**
@@ -63,9 +86,7 @@ final class App {
      */
     static public function fatalError() {
         if ($e = error_get_last()) {
-            if (ob_get_level()) {
-                ob_end_clean();
-            }
+            ob_end_clean();
             self::appError($e['type'], $e['message'], $e['file'], $e['line']);
         }
     }
@@ -83,6 +104,7 @@ final class App {
             ini_set('zlib.output_compression', 'On');
             ini_set('zlib.output_compression_level', '3');
         }
+        ob_start();
         /**
          * 自定义 错误与载入机制
          */
@@ -90,7 +112,11 @@ final class App {
         set_error_handler(array(__CLASS__, 'appError'));
         spl_autoload_register(array(__CLASS__, 'autoload'));
 
-        
+        /**
+         * 扩展的结构文件夹
+         */
+        define('LOG_DIR', RUN_DIR . 'log' . DS);
+
         /**
          * 配置参数的各种配置
          */

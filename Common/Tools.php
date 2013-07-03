@@ -6,13 +6,16 @@
 final class Tools {
 
     /**
-     * 用于替代require_once方法
+     * 用于替代require_once方法,都为空时 返回包含文件的数组
      * @staticvar array $_file  保持加载函数的类别
      * @param type $path    要加加载文件的完整路径
      * @param type $is_return 是否直接返回包含的内容
      */
-    static public function import($path, $is_return = false) {
+    static public function import($path = null, $is_return = false) {
         static $_file = array();
+        if ($path == null && $is_return == false) {
+            return $_file;
+        }
         if (isset($_file[$path])) {
             $error_msg = Tools::txt("{0} Is Already Exists", $path);
             trigger_error($error_msg);
@@ -28,6 +31,13 @@ final class Tools {
                 throw new Exception(Tools::txt("{0} Is Not Exists", $path));
             }
         }
+    }
+
+    static public function fileappend($filename, $content) {
+        $file_handler = fopen($filename, 'a');
+        if (!empty($content))
+            fwrite($file_handler, $content);
+        fclose($file_handler);
     }
 
     /**
@@ -82,10 +92,10 @@ final class Tools {
         echo $message;
         return;
     }
-    
-    static public function halt($string){
+
+    static public function halt($string) {
         
-    } 
+    }
 
 }
 

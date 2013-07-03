@@ -1,0 +1,10 @@
+
+[ 2013-07-03T17:20:18+08:00 ]
+Call to undefined function close() (D:\wamp\www\eggPHP\Core\App.php:120)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(71): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(90): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-03T17:20:18+08:00 ]###############
