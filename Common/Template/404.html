@@ -21,13 +21,10 @@
     </head>
     <body>
         <div class="error">
-            <h1><?php echo nl2br(strip_tags(isset($e['message'])?$e['message']:'该页貌似不存在(⊙_⊙)？'));?></h1>
+            <h1><?php echo nl2br(strip_tags(isset($e['message'])?$e['message']:'系统发生错误(⊙_⊙)？'));?></h1>
             <div class="content">
                 <?php if(isset($log)) {?>
                 <div class="info">
-                    <div class="title">
-                        <h3>TRACE</h3>
-                    </div>
                     <div class="text">
                         <p><?php echo nl2br($log);?></p>
                     </div>

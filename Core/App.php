@@ -52,6 +52,7 @@ final class App {
      * 运行项目
      */
     static public function run() {
+        
         ob_end_clean();
     }
 
@@ -116,7 +117,7 @@ final class App {
          * 扩展的结构文件夹
          */
         define('LOG_DIR', RUN_DIR . 'log' . DS);
-
+        define('TPL_DIR', COMMON_DIR . 'Template' . DS);
         /**
          * 配置参数的各种配置
          */

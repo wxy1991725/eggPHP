@@ -78,17 +78,16 @@ final class Debug {
     }
 
     static public function displayError($log) {
-        if (self::get_env() == 'dev') {
-            include '';
-        } else {
-            
+        if (self::get_env() != 'dev') {
+            $log = " 404 not fiound";
         }
+        include TPL_DIR . '404.html';
     }
 
     static public function halt($errno, $errstr, $errfile, $errline) {
         if ($errno) {
             // disable error capturing to avoid recursive errors
-           
+
             $log = "$errstr ($errfile:$errline)\nStack trace:\n";
             $trace = debug_backtrace();
             // skip the first 3 stacks as they do not tell the error position
@@ -109,7 +108,6 @@ final class Debug {
             }
             if (isset($_SERVER['REQUEST_URI']))
                 $log.='REQUEST_URI=' . $_SERVER['REQUEST_URI'];
-
             Log::add(Log::$_log_error, $log);
             if (self::get_env() != 'dev') {
                 $log = '';

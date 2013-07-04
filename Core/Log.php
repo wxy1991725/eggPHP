@@ -47,6 +47,9 @@ final class Log {
     }
 
     static function save() {
+        if (empty(self::$_log_array)) {
+            return;
+        }
         $filename = LOG_DIR . date('Ymd') . '.log';
         foreach (self::$_log_array as $value) {
             Tools::fileappend($filename, $value);

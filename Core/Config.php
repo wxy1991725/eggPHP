@@ -31,7 +31,16 @@ final class Config {
             return $_self;
         }
     }
-    
+
+    /**
+     * 获得单个配置项
+     * @param string $name 要获得的属性
+     * @return object 内容
+     */
+    static public function getConfig($name) {
+        return self::instance()->$name;
+    }
+
     /**
      * 显示配置列表
      * @return array 配置数组 
