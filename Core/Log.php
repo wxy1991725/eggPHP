@@ -39,7 +39,7 @@ final class Log {
     }
 
     static function addDebug($message) {
-        
+        //  self::$_log_array[] = "\r\n" . date("[ c ]") . "\n" . $message . "\n";
     }
 
     static function clearError() {

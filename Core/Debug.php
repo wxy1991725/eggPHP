@@ -79,9 +79,10 @@ final class Debug {
 
     static public function displayError($log) {
         if (self::get_env() != 'dev') {
-            $log = " 404 not fiound";
+            $log = Config::getConfig('error_message');
         }
         include TPL_DIR . '404.html';
+        exit;
     }
 
     static public function halt($errno, $errstr, $errfile, $errline) {
@@ -115,7 +116,7 @@ final class Debug {
             return $log;
         }
     }
-
+    
 }
 
 ?>

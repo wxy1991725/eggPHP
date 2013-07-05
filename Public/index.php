@@ -7,7 +7,7 @@ define('DS', DIRECTORY_SEPARATOR);
 define('APP_ROOT', realpath(dirname(__FILE__) . DS . ".." . DS) . DS);
 define('CORE_DIR', APP_ROOT . 'Core' . DS);
 define('COMMON_DIR', APP_ROOT . 'Common' . DS);
-define('EXT_DIR', APP_ROOT . 'Extend' . DS);
+define('SYS_EXT_DIR', APP_ROOT . 'Extend' . DS);
 define('RUN_DIR', APP_ROOT . 'Run' . DS);
 
 /**

@@ -33,6 +33,11 @@ final class Tools {
         }
     }
 
+    /**
+     * 日志的内容添加参数
+     * @param type $filename 文件名称
+     * @param type $content 要添加的文件内容
+     */
     static public function fileappend($filename, $content) {
         $file_handler = fopen($filename, 'a');
         if (!empty($content))
@@ -93,8 +98,17 @@ final class Tools {
         return;
     }
 
-    static public function halt($string) {
-        
+    /**
+     *  按情况，分割参数，字符串则按第二的参数进行分割，分组则返回值
+     * @param object $string
+     */
+    static public function xcode($string, $delimiter = ',') {
+        if (is_string($string)) {
+            $string = explode($delimiter, $string);
+        } else {
+            $string = (array) $string;
+        }
+        return array_values($string);
     }
 
 }

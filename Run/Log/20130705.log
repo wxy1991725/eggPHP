@@ -1,0 +1,18 @@
+
+[ 2013-07-05T17:18:11+08:00 ]
+call_user_func() expects parameter 1 to be a valid callback, array must have exactly two members (D:\wamp\www\eggPHP\Core\Event.php:39)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(160): happen()
+#1 D:\wamp\www\eggPHP\Public\index.php(35): init()
+REQUEST_URI=/
+
+###############[ 2013-07-05T17:18:11+08:00 ]###############
+
+[ 2013-07-05T17:18:33+08:00 ]
+call_user_func() expects parameter 1 to be a valid callback, function 'filter' not found or invalid function name (D:\wamp\www\eggPHP\Core\Event.php:39)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(160): happen()
+#1 D:\wamp\www\eggPHP\Public\index.php(35): init()
+REQUEST_URI=/
+
+###############[ 2013-07-05T17:18:33+08:00 ]###############
