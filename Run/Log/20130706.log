@@ -1,0 +1,48 @@
+
+[ 2013-07-06T08:49:30+08:00 ]
+ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer zlib output compression (D:\wamp\www\eggPHP\Core\App.php:113)
+Stack trace:
+#0 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-06T08:49:30+08:00 ]###############
+
+[ 2013-07-06T08:49:30+08:00 ]
+ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer zlib output compression (D:\wamp\www\eggPHP\Core\App.php:113)
+Stack trace:
+#0 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-06T08:49:30+08:00 ]
+Comments starting with '#' are deprecated in E:\upupw\PHP5\php.ini on line 1977 (Unknown:0)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(74): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(115): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-06T08:49:30+08:00 ]###############
+
+[ 2013-07-06T08:53:27+08:00 ]
+ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer zlib output compression (D:\wamp\www\eggPHP\Core\App.php:113)
+Stack trace:
+#0 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-06T08:53:27+08:00 ]###############
+
+[ 2013-07-06T08:53:27+08:00 ]
+ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer zlib output compression (D:\wamp\www\eggPHP\Core\App.php:113)
+Stack trace:
+#0 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-06T08:53:27+08:00 ]
+Comments starting with '#' are deprecated in E:\upupw\PHP5\php.ini on line 1977 (Unknown:0)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(74): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(115): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-06T08:53:27+08:00 ]###############

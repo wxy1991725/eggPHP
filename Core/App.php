@@ -70,6 +70,7 @@ final class App {
             case E_STRICT:
             case E_USER_WARNING:
             case E_USER_NOTICE:
+            case E_WARNING:
             default:
                 $log = Debug::halt($errno, $errstr, $errfile, $errline);
                 Log::save();

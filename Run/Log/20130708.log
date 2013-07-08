@@ -1,0 +1,59 @@
+
+[ 2013-07-08T09:37:59+08:00 ]
+app_init事件不存在! (D:\wamp\www\eggPHP\Core\Event.php:30)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(160): happen()
+#1 D:\wamp\www\eggPHP\Public\index.php(35): init()
+REQUEST_URI=/
+
+###############[ 2013-07-08T09:38:00+08:00 ]###############
+
+[ 2013-07-08T16:21:18+08:00 ]
+ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer zlib output compression (D:\wamp\www\eggPHP\Core\App.php:65)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(115): appError()
+#1 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-08T16:21:18+08:00 ]###############
+
+[ 2013-07-08T16:21:18+08:00 ]
+ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer zlib output compression (D:\wamp\www\eggPHP\Core\App.php:65)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(115): appError()
+#1 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-08T16:21:18+08:00 ]
+Class filterEvent may not inherit from final class (Event) (D:\wamp\www\eggPHP\Common\Events\filter.event.php:0)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(66): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(115): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-08T16:21:18+08:00 ]###############
+
+[ 2013-07-08T17:36:02+08:00 ]
+htmlspecialchars() expects parameter 2 to be long, string given (D:\wamp\www\eggPHP\Common\Events\filter.event.php:19)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Common\Events\filter.event.php(19): array_walk_recursive()
+#1 unknown(0): run()
+#2 D:\wamp\www\eggPHP\Core\Event.php(35): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(160): happen()
+#4 D:\wamp\www\eggPHP\Public\index.php(35): init()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+###############[ 2013-07-08T17:36:36+08:00 ]###############
+
+[ 2013-07-08T17:37:36+08:00 ]
+htmlspecialchars() expects parameter 2 to be long, string given (D:\wamp\www\eggPHP\Common\Events\filter.event.php:19)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Common\Events\filter.event.php(19): array_walk_recursive()
+#1 unknown(0): run()
+#2 D:\wamp\www\eggPHP\Core\Event.php(35): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(161): happen()
+#4 D:\wamp\www\eggPHP\Public\index.php(35): init()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+###############[ 2013-07-08T17:37:36+08:00 ]###############
