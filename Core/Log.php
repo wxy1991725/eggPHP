@@ -34,18 +34,33 @@ final class Log {
         return;
     }
 
+    /**
+     * 提交错误参数
+     * @param type $message
+     * @return type
+     */
     static function addError($message) {
-       return self::$_log_array[] = "\r\n" . date("[ c ]") . "\n" . $message . "\n";
+        return self::$_log_array[] = "\r\n" . date("[ c ]") . "\n" . $message . "\n";
     }
 
+    /**
+     * 提交调试参数
+     * @param type $message
+     * @return type
+     */
     static function addDebug($message) {
-      return  self::$_log_array[] = "\r\n" . date("[ c ]") . "\n" . $message . "\n";
+        return self::$_log_array[] = "\r\n" . date("[ c ]") . "\n" . $message . "\n";
     }
-
+    /**
+     * 清楚错误记录
+     */
     static function clearError() {
         self::$_log_array[] = null;
     }
-
+    /**
+     * 保存log文件
+     * @return void  _log_array为空则退出
+     */
     static function save() {
         if (empty(self::$_log_array)) {
             return;

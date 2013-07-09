@@ -20,7 +20,7 @@ final class App {
     static public $_autoclass = array();
 
     /**
-     * 保存提前加载的类列表
+     * 核心类清单
      * @var type 
      */
     static private $_proload = array(
@@ -29,7 +29,10 @@ final class App {
         'Uri' => 'Core/Uri.php',
         'Debug' => 'Core/Debug.php',
         'Log' => 'Core/Log.php',
-        'Event' => 'Core/Event.php'
+        'Event' => 'Core/Event.php',
+        'Controller' => 'MVC/Base/Controller.php',
+        'Model' => 'MVC/Base/Model.php',
+        'View' => 'MVC/Base/View.php'
     );
 
     /**
@@ -42,9 +45,23 @@ final class App {
      * 运行项目
      */
     static public function run() {
+        $router_url_array = Router::getParms();
 
         ob_end_clean();
-        var_dump(Event::$_event_list);
+        var_dump($router_url_array);
+    }
+
+    static public function start($router_url_array) {
+        $config=  Config::getConfig('');
+        $controller = $router_url_array['class'] ;
+        $action = $router_url_array['action'];
+        $model = $router_url_array['class'];
+        if(class_exists($controller)){
+           $class = Controller::newClass($controller);
+           
+        }  else {
+            $class=  Controller::newClass();
+        }
     }
 
     static public function appException(Exception $e) {
@@ -132,15 +149,6 @@ final class App {
      * @param type $config 配置
      */
     static public function init($config) {
-        // 页面压缩输出支持
-        if (extension_loaded('zlib')) {
-            ini_set('zlib.output_compression', 'On');
-            ini_set('zlib.output_compression_level', '3');
-        }
-        /**
-         * 开启缓冲防止 header头信息错误
-         */
-        ob_start();
         /**
          * 扩展的结构文件夹
          */
@@ -157,7 +165,17 @@ final class App {
         register_shutdown_function(array(__CLASS__, 'fatalError'));
         set_error_handler(array(__CLASS__, 'appError'));
         set_exception_handler(array(__CLASS__, 'appException'));
-
+        // 页面压缩输出支持
+        if (Debug::get_env() == 'pro') {
+            if (extension_loaded('zlib')) {
+                ini_set('zlib.output_compression', 'On');
+                ini_set('zlib.output_compression_level', '3');
+            }
+        }
+        /**
+         * 开启缓冲防止 header头信息错误
+         */
+        ob_start();
         /**
          * 配置参数的各种配置
          */
