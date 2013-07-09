@@ -12,12 +12,34 @@
  */
 class filterEvent extends Event {
 
-    //put your code here
     static function run() {
-        $filter = 'htmlspecialchars';
-        array_walk_recursive($_POST, $filter);
-        array_walk_recursive($_GET, $filter);
-        var_dump($_GET);
+        ob_end_clean();
+        foreach (array('_GET', '_POST', '_COOKIE') as $_request) {
+            if (!empty($$_request)) {
+                foreach ($$_request as $_k => $_v) {
+                    ${$_k} = self::RunMagicQuotes($_v);
+                    if(is_string($_k)){
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * 批量转义过滤函数 取自dedecms
+     * @param type $str
+     * @return type
+     */
+    static function RunMagicQuotes(&$str) {
+        if (!get_magic_quotes_gpc()) {
+            if (is_array($str))
+                foreach ($str as $key => $val)
+                    $str[$key] = RunMagicQuotes($val);
+            else
+                $str = addslashes($str);
+        }
+        return $str;
     }
 
 }

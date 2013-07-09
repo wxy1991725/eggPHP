@@ -35,11 +35,11 @@ final class Log {
     }
 
     static function addError($message) {
-        self::$_log_array[] = "\r\n" . date("[ c ]") . "\n" . $message . "\n";
+       return self::$_log_array[] = "\r\n" . date("[ c ]") . "\n" . $message . "\n";
     }
 
     static function addDebug($message) {
-        //  self::$_log_array[] = "\r\n" . date("[ c ]") . "\n" . $message . "\n";
+      return  self::$_log_array[] = "\r\n" . date("[ c ]") . "\n" . $message . "\n";
     }
 
     static function clearError() {

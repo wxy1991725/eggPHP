@@ -42,7 +42,9 @@ final class App {
      * 运行项目
      */
     static public function run() {
+
         ob_end_clean();
+        var_dump(Event::$_event_list);
     }
 
     static public function appException(Exception $e) {
@@ -53,9 +55,9 @@ final class App {
     static public function appError($errno, $errstr, $errfile, $errline) {
         switch ($errno) {
             case E_NOTICE://警告仅仅记录
-                Debug::halt($errno, $errstr, $errfile, $errline);
-                Log::save();
-                Log::clearError();
+//                Debug::halt($errno, $errstr, $errfile, $errline);
+//                Log::save();
+//                Log::clearError();
                 break;
             case E_ERROR:
             case E_PARSE:
@@ -115,6 +117,11 @@ final class App {
             }
             self::appError($e['type'], $e['message'], $e['file'], $e['line']);
         }
+        if (Debug::get_env() == 'dev') {
+            echo Log::addDebug('运行时间:' . (microtime(1) - BEGINTIME)) . "<br>";
+            echo Log::addDebug('内存消耗:' . (memory_get_usage() - BEGINMEM) / 1024);
+        }
+        Log::save();
     }
 
     /**
@@ -150,6 +157,7 @@ final class App {
         register_shutdown_function(array(__CLASS__, 'fatalError'));
         set_error_handler(array(__CLASS__, 'appError'));
         set_exception_handler(array(__CLASS__, 'appException'));
+
         /**
          * 配置参数的各种配置
          */

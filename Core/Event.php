@@ -27,8 +27,11 @@ class Event {
             self::$_event_list = Config::getConfig('event_list');
         if (isset(self::$_event_list[$EventName])) {
             $EventNameList = Tools::xcode(self::$_event_list[$EventName]);
+            if (empty($EventNameList)) {
+                return;
+            }
         } else {
-            throw new Exception($EventName . '触发失败');
+            return;
         }
         foreach ($EventNameList as $value) {
             if (class_exists($value . 'Event')) {
@@ -53,11 +56,18 @@ class Event {
      * @param string $EventName 事件名
      * @param array $callback 必须是事件之中有的方法,可以是数组(一批事件)
      */
-    static public function clear(string $EventName, array $function = null) {
+    static public function clear(string $EventName = null, array $function = null) {
+        if ($EventName === null && $function === null) {
+            self::$_event_list = array();
+            return;
+        } elseif ($function === null) {
+            self::$_event_list[$EventName] = null;
+            return;
+        }
         if (isset(self::$_event_list[$EventName])) {
             $EventNameList = Tools::xcode(self::$_event_list[$EventName]);
             $diffarray = array_diff($EventNameList, (array) $function);
-            self::$_event_list[$EventName] = $diffarray;
+            return self::$_event_list[$EventName] = $diffarray;
         } else {
             trigger_error($EventName . '事件不存在!');
         }

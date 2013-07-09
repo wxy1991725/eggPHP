@@ -82,7 +82,6 @@ final class Debug {
             $log = Config::getConfig('error_message');
         }
         include TPL_DIR . '404.html';
-        exit;
     }
 
     static public function halt($errno, $errstr, $errfile, $errline) {

@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * 开始运行时间
+ */
+define('BEGINTIME', microtime(1));
+define('BEGINMEM', memory_get_usage());
 /**
  * 常量定义一系列配置
  */
