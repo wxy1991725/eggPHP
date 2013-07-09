@@ -41,16 +41,14 @@ class Event {
             }
         }
     }
-    
+
     /**
      * 添加事件
      * @param string $EventName 事件名
      * @param callable $callback 方法或者对象,方法会被直接运行 对象则运行其中的Run方法
      */
     static public function add(string $EventName, callable $callback) {
-        $EventNameList = Tools::xcode(self::$_event_list[$EventName]);
-        $EventNameList[] = $callback;
-        self::$_event_list[$EventName] = $EventNameList;
+        self::$_event_list[$EventName][] = $callback;
     }
 
     /**

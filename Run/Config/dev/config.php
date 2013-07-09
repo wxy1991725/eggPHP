@@ -13,14 +13,11 @@ return array(
         'default_action' => 'index',
     ),
     'url_type' => 2,
-    'class_default' => 'home',
-    'action_default' => 'index',
-    'class_error' => 'error',
     'url_type_setting' => array(
-        2 => array('router_parm' => 'r',)
+        0 => array('class_parm' => 'c', 'action_parm' => 'a'),
     ),
-    'event_list' => array(
-        'app_init' => 'filter',
+    'event_list'=>array(
+        'app_init'=>'filter',
     )
 );
 ?>

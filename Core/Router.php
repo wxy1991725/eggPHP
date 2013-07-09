@@ -27,46 +27,14 @@ class Router {
     }
 
     static public function getParms() {
-        $config = Config::instance();
-        $url_type_setting = $config->url_type_setting;
-        switch ($config->url_type) {
+        $url_type = Config::getConfig('url_type');
+        switch ($url_type) {
             case self::TRADITION:
-                break;
-            case self::YII:
-                $router = $url_type_setting[self::YII];
-                $router_url = rtrim($_GET[$router['router_parm']], '/');
-                return self::parseRouter($router_url, $config);
-                break;
-            case self::PATHINFO:
+                
                 break;
         }
     }
 
-    static private function parseRouter($router_url, $config) {
-        $default_array = array(
-            'class' => $config->class_default,
-            'action' => $config->action_default,
-            'parms' => array()
-        );
-        if (empty($router_url)) {
-            return $default_array;
-        }
-        $router_url = strip_tags($router_url);
-        $router_url_array = explode('/', $router_url);
-        $length = count($router_url_array);
-        $default_array['class'] = empty($router_url_array[0]) ? $default_array['class'] : strtolower($router_url_array[0]);
-        $default_array['action'] = empty($router_url_array[1]) ? $default_array['action'] : strtolower($router_url_array[1]);
-        if ($length == 3) {
-            $default_array['parms'] = array($router_url_array[2]);
-        } elseif ($length > 3 && $length % 2 == 0) {
-            for ($i = 2; $i < $length; $i += 2) {
-                $arr_temp_hash = array(strtolower($router_url_array[$i]) => $router_url_array[$i + 1]);
-                $default_array['parms'] = array_merge($default_array['parms'], $arr_temp_hash);
-            }
-        } else {
-            return $default_array;
-        }
-        return $default_array;
-    }
 }
+
 ?>
