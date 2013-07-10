@@ -6,21 +6,15 @@
  */
 
 /**
- * 模型基类
+ * Description of error
  *
  * @author WXY
  */
-class Model {
-    /**
-     *  Ative 
-     * @var type 
-     */
-    private $_model_active=array();
+class error_class extends Controller {
     //put your code here
-    static public function newModel($model) {
-        
+    function index_action(){
+        echo 'Hello world';
     }
-
 }
 
 ?>

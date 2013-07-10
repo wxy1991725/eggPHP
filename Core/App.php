@@ -46,27 +46,36 @@ final class App {
      */
     static public function run() {
         $router_url_array = Router::getParms();
-
         ob_end_clean();
-        var_dump($router_url_array);
+        App::start($router_url_array);
+       
     }
 
     static public function start($router_url_array) {
-        $config=  Config::getConfig('');
-        $controller = $router_url_array['class'] ;
-        $action = $router_url_array['action'];
-        $model = $router_url_array['class'];
-        if(class_exists($controller)){
-           $class = Controller::newClass($controller);
-           
-        }  else {
-            $class=  Controller::newClass();
+        $config = Config::instance();
+        $controller = $router_url_array['class'] . "_class";
+        $action = $router_url_array['action'] . "_action";
+        try {
+            if (class_exists($controller)) {
+                $class = Controller::newClass($controller);
+                if (method_exists($class, $action)) {
+                    if (empty($router_url_array['parms'])) {
+                        call_user_func(array($class, $action));
+                    } else {
+                        call_user_func_array(array($class, $action), $router_url_array['parms']);
+                    }
+                }
+            } else {
+                throw new Exception('Url Input ' . $_SERVER['REQUEST_URI']);
+            }
+        } catch (Exception $e) {
+            $class = Controller::newClass($config->class_error . "_class");
+            call_user_func(array($class, $action));
         }
     }
 
     static public function appException(Exception $e) {
-        Log::addError($e->__toString());
-        Debug::displayError($e->__toString());
+        self::appError($e->getCode(), $e->getMessage(), $e->getFile(), $e->getLine());
     }
 
     static public function appError($errno, $errstr, $errfile, $errline) {
@@ -83,7 +92,6 @@ final class App {
             case E_USER_ERROR:
                 ob_end_clean();
                 $log = Debug::halt($errno, $errstr, $errfile, $errline);
-                Log::save();
                 Debug::displayError($log);
                 break;
             case E_STRICT:
@@ -92,8 +100,8 @@ final class App {
             case E_WARNING:
             default:
                 $log = Debug::halt($errno, $errstr, $errfile, $errline);
-                Log::save();
-                Debug::displayError($log);
+                if (Debug::get_env() == 'dev')
+                    echo nl2br($log) . "<br>";
                 break;
         }
     }

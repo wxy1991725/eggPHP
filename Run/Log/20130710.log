@@ -1,0 +1,906 @@
+
+[ 2013-07-10T14:40:30+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:31)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:40:30+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:31)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:40:30+08:00 ]###############
+
+[ 2013-07-10T14:40:30+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:31)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:40:30+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:31)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:40:30+08:00 ]
+运行时间:0.033001899719238
+
+[ 2013-07-10T14:40:30+08:00 ]
+内存消耗:84.7421875
+
+###############[ 2013-07-10T14:40:30+08:00 ]###############
+
+[ 2013-07-10T14:41:27+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:31)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:41:27+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:31)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:41:27+08:00 ]###############
+
+[ 2013-07-10T14:41:27+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:31)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:41:27+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:31)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:41:27+08:00 ]
+运行时间:0.027001857757568
+
+[ 2013-07-10T14:41:27+08:00 ]
+内存消耗:51.375
+
+###############[ 2013-07-10T14:41:27+08:00 ]###############
+
+[ 2013-07-10T14:44:11+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:44:11+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:44:11+08:00 ]###############
+
+[ 2013-07-10T14:44:11+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:44:11+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:44:11+08:00 ]
+运行时间:0.024002075195312
+
+[ 2013-07-10T14:44:11+08:00 ]
+内存消耗:51.6015625
+
+###############[ 2013-07-10T14:44:11+08:00 ]###############
+
+[ 2013-07-10T14:45:03+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:45:03+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:45:03+08:00 ]###############
+
+[ 2013-07-10T14:45:03+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:45:03+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:45:03+08:00 ]
+运行时间:0.023001909255981
+
+[ 2013-07-10T14:45:03+08:00 ]
+内存消耗:23.1953125
+
+###############[ 2013-07-10T14:45:03+08:00 ]###############
+
+[ 2013-07-10T14:46:18+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:46:18+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:46:18+08:00 ]###############
+
+[ 2013-07-10T14:46:18+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:46:18+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:46:18+08:00 ]
+运行时间:0.059004068374634
+
+[ 2013-07-10T14:46:18+08:00 ]
+内存消耗:88.40625
+
+###############[ 2013-07-10T14:46:18+08:00 ]###############
+
+[ 2013-07-10T14:48:07+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:48:07+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:48:07+08:00 ]###############
+
+[ 2013-07-10T14:48:07+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:48:07+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:48:07+08:00 ]
+运行时间:0.037001848220825
+
+[ 2013-07-10T14:48:07+08:00 ]
+内存消耗:88.59375
+
+###############[ 2013-07-10T14:48:07+08:00 ]###############
+
+[ 2013-07-10T14:48:37+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:48:37+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:48:37+08:00 ]###############
+
+[ 2013-07-10T14:48:37+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:48:37+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:48:37+08:00 ]
+运行时间:0.031002044677734
+
+[ 2013-07-10T14:48:37+08:00 ]
+内存消耗:88.8046875
+
+###############[ 2013-07-10T14:48:37+08:00 ]###############
+
+[ 2013-07-10T14:48:38+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:48:38+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:48:38+08:00 ]###############
+
+[ 2013-07-10T14:48:38+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:48:38+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(88): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(137): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:48:38+08:00 ]
+运行时间:0.025002002716064
+
+[ 2013-07-10T14:48:38+08:00 ]
+内存消耗:26.546875
+
+###############[ 2013-07-10T14:48:38+08:00 ]###############
+
+[ 2013-07-10T14:49:50+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(87): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(136): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:49:50+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(87): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(136): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:49:50+08:00 ]###############
+
+[ 2013-07-10T14:49:50+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(87): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(136): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:49:50+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(87): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(136): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:49:50+08:00 ]
+运行时间:0.043002128601074
+
+[ 2013-07-10T14:49:50+08:00 ]
+内存消耗:91.1875
+
+###############[ 2013-07-10T14:49:50+08:00 ]###############
+
+[ 2013-07-10T14:51:22+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(87): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(136): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:51:22+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(87): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(136): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:51:22+08:00 ]###############
+
+[ 2013-07-10T14:51:22+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(87): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(136): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:51:22+08:00 ]
+Class name must be a valid object or a string (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(87): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(136): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T14:51:22+08:00 ]
+运行时间:0.030001878738403
+
+[ 2013-07-10T14:51:22+08:00 ]
+内存消耗:26.546875
+
+###############[ 2013-07-10T14:51:22+08:00 ]###############
+
+[ 2013-07-10T14:52:28+08:00 ]
+运行时间:0.091004848480225
+
+[ 2013-07-10T14:52:28+08:00 ]
+内存消耗:86.25
+
+###############[ 2013-07-10T14:52:28+08:00 ]###############
+
+[ 2013-07-10T14:52:50+08:00 ]
+运行时间:0.016000986099243
+
+[ 2013-07-10T14:52:50+08:00 ]
+内存消耗:86.9140625
+
+###############[ 2013-07-10T14:52:50+08:00 ]###############
+
+[ 2013-07-10T14:53:11+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:53:11+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:53:11+08:00 ]###############
+
+[ 2013-07-10T14:53:11+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:53:11+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:53:11+08:00 ]
+运行时间:0.027001857757568
+
+[ 2013-07-10T14:53:11+08:00 ]
+内存消耗:84.7421875
+
+###############[ 2013-07-10T14:53:11+08:00 ]###############
+
+[ 2013-07-10T14:54:00+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:54:00+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:54:00+08:00 ]###############
+
+[ 2013-07-10T14:54:00+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:54:00+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:54:00+08:00 ]
+运行时间:0.024002075195312
+
+[ 2013-07-10T14:54:00+08:00 ]
+内存消耗:84.8515625
+
+###############[ 2013-07-10T14:54:00+08:00 ]###############
+
+[ 2013-07-10T14:54:02+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:54:02+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+###############[ 2013-07-10T14:54:02+08:00 ]###############
+
+[ 2013-07-10T14:54:02+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:54:02+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:54:02+08:00 ]
+运行时间:0.025002002716064
+
+[ 2013-07-10T14:54:02+08:00 ]
+内存消耗:23.1953125
+
+###############[ 2013-07-10T14:54:02+08:00 ]###############
+
+[ 2013-07-10T14:55:18+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:55:18+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:55:18+08:00 ]
+运行时间:0.026002168655396
+
+[ 2013-07-10T14:55:18+08:00 ]
+内存消耗:83.6484375
+
+###############[ 2013-07-10T14:55:18+08:00 ]###############
+
+[ 2013-07-10T14:55:31+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:55:31+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:55:31+08:00 ]
+运行时间:0.013001203536987
+
+[ 2013-07-10T14:55:31+08:00 ]
+内存消耗:22.984375
+
+###############[ 2013-07-10T14:55:31+08:00 ]###############
+
+[ 2013-07-10T14:56:54+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:56:54+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:56:54+08:00 ]
+运行时间:0.020001173019409
+
+[ 2013-07-10T14:56:54+08:00 ]
+内存消耗:83.8359375
+
+###############[ 2013-07-10T14:56:54+08:00 ]###############
+
+[ 2013-07-10T14:57:27+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:57:27+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:57:27+08:00 ]
+运行时间:0.022001981735229
+
+[ 2013-07-10T14:57:27+08:00 ]
+内存消耗:84.5625
+
+###############[ 2013-07-10T14:57:27+08:00 ]###############
+
+[ 2013-07-10T14:58:08+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:58:08+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\home.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(95): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(71): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T14:58:08+08:00 ]
+运行时间:0.042001962661743
+
+[ 2013-07-10T14:58:08+08:00 ]
+内存消耗:85.0703125
+
+###############[ 2013-07-10T14:58:08+08:00 ]###############
+
+[ 2013-07-10T15:05:53+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(100): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(76): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T15:05:53+08:00 ]
+D:\wamp\www\eggPHP\MVC\Class\.class.php Is Not Exists (D:\wamp\www\eggPHP\Common\Tools.php:32)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(100): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(76): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-10T15:05:53+08:00 ]
+运行时间:0.031002044677734
+
+[ 2013-07-10T15:05:53+08:00 ]
+内存消耗:90.7421875
+
+###############[ 2013-07-10T15:05:53+08:00 ]###############
+
+[ 2013-07-10T15:06:40+08:00 ]
+Class 'error_class' not found (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(93): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(142): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T15:06:40+08:00 ]
+Class 'error_class' not found (D:\wamp\www\eggPHP\MVC\Base\Controller.php:20)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(93): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(142): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-10T15:06:40+08:00 ]
+运行时间:0.040002107620239
+
+[ 2013-07-10T15:06:40+08:00 ]
+内存消耗:99.515625
+
+###############[ 2013-07-10T15:06:40+08:00 ]###############
+
+[ 2013-07-10T15:07:27+08:00 ]
+运行时间:0.015001058578491
+
+[ 2013-07-10T15:07:27+08:00 ]
+内存消耗:24.5625
+
+###############[ 2013-07-10T15:07:27+08:00 ]###############
+
+[ 2013-07-10T15:09:15+08:00 ]
+运行时间:0.032001972198486
+
+[ 2013-07-10T15:09:15+08:00 ]
+内存消耗:28.0859375
+
+###############[ 2013-07-10T15:09:15+08:00 ]###############
+
+[ 2013-07-10T15:31:10+08:00 ]
+运行时间:0.025002002716064
+
+[ 2013-07-10T15:31:10+08:00 ]
+内存消耗:91.3203125
+
+###############[ 2013-07-10T15:31:10+08:00 ]###############
+
+[ 2013-07-10T15:42:56+08:00 ]
+运行时间:0.021001100540161
+
+[ 2013-07-10T15:42:56+08:00 ]
+内存消耗:90.8515625
+
+###############[ 2013-07-10T15:42:56+08:00 ]###############
+
+[ 2013-07-10T15:43:28+08:00 ]
+运行时间:0.022001981735229
+
+[ 2013-07-10T15:43:28+08:00 ]
+内存消耗:90.2421875
+
+###############[ 2013-07-10T15:43:28+08:00 ]###############
+
+[ 2013-07-10T15:43:44+08:00 ]
+运行时间:0.016000986099243
+
+[ 2013-07-10T15:43:44+08:00 ]
+内存消耗:90.1484375
+
+###############[ 2013-07-10T15:43:44+08:00 ]###############
+
+[ 2013-07-10T15:44:04+08:00 ]
+运行时间:0.045002937316895
+
+[ 2013-07-10T15:44:04+08:00 ]
+内存消耗:90.2421875
+
+###############[ 2013-07-10T15:44:04+08:00 ]###############
+
+[ 2013-07-10T15:44:07+08:00 ]
+运行时间:0.018000841140747
+
+[ 2013-07-10T15:44:07+08:00 ]
+内存消耗:24.7734375
+
+###############[ 2013-07-10T15:44:07+08:00 ]###############
+
+[ 2013-07-10T15:44:08+08:00 ]
+运行时间:0.028000831604004
+
+[ 2013-07-10T15:44:08+08:00 ]
+内存消耗:24.7734375
+
+###############[ 2013-07-10T15:44:08+08:00 ]###############
+
+[ 2013-07-10T15:44:46+08:00 ]
+运行时间:0.044003009796143
+
+[ 2013-07-10T15:44:46+08:00 ]
+内存消耗:99.7578125
+
+###############[ 2013-07-10T15:44:46+08:00 ]###############
+
+[ 2013-07-10T15:44:47+08:00 ]
+运行时间:0.022001028060913
+
+[ 2013-07-10T15:44:47+08:00 ]
+内存消耗:34.9921875
+
+###############[ 2013-07-10T15:44:47+08:00 ]###############
+
+[ 2013-07-10T15:44:48+08:00 ]
+运行时间:0.070003986358643
+
+[ 2013-07-10T15:44:48+08:00 ]
+内存消耗:34.9921875
+
+###############[ 2013-07-10T15:44:48+08:00 ]###############
+
+[ 2013-07-10T15:44:48+08:00 ]
+运行时间:0.028002023696899
+
+[ 2013-07-10T15:44:48+08:00 ]
+内存消耗:34.9921875
+
+###############[ 2013-07-10T15:44:48+08:00 ]###############
+
+[ 2013-07-10T15:44:49+08:00 ]
+运行时间:0.012001037597656
+
+[ 2013-07-10T15:44:49+08:00 ]
+内存消耗:34.9921875
+
+###############[ 2013-07-10T15:44:49+08:00 ]###############
+
+[ 2013-07-10T15:44:54+08:00 ]
+运行时间:0.028002023696899
+
+[ 2013-07-10T15:44:54+08:00 ]
+内存消耗:90.2421875
+
+###############[ 2013-07-10T15:44:54+08:00 ]###############
+
+[ 2013-07-10T15:44:55+08:00 ]
+运行时间:0.027000904083252
+
+[ 2013-07-10T15:44:55+08:00 ]
+内存消耗:24.7734375
+
+###############[ 2013-07-10T15:44:55+08:00 ]###############
+
+[ 2013-07-10T15:44:56+08:00 ]
+运行时间:0.018001079559326
+
+[ 2013-07-10T15:44:56+08:00 ]
+内存消耗:24.7734375
+
+###############[ 2013-07-10T15:44:56+08:00 ]###############
+
+[ 2013-07-10T15:46:03+08:00 ]
+运行时间:0.035001993179321
+
+[ 2013-07-10T15:46:03+08:00 ]
+内存消耗:25.4609375
+
+###############[ 2013-07-10T15:46:03+08:00 ]###############
+
+[ 2013-07-10T15:49:03+08:00 ]
+运行时间:0.015001058578491
+
+[ 2013-07-10T15:49:03+08:00 ]
+内存消耗:24.9765625
+
+###############[ 2013-07-10T15:49:03+08:00 ]###############
+
+[ 2013-07-10T16:20:06+08:00 ]
+运行时间:0.014999866485596
+
+[ 2013-07-10T16:20:06+08:00 ]
+内存消耗:24.9765625
+
+###############[ 2013-07-10T16:20:06+08:00 ]###############
+
+[ 2013-07-10T16:29:43+08:00 ]
+运行时间:0.022001028060913
+
+[ 2013-07-10T16:29:43+08:00 ]
+内存消耗:24.9765625
+
+###############[ 2013-07-10T16:29:43+08:00 ]###############
+
+[ 2013-07-10T17:52:56+08:00 ]
+运行时间:0.048002004623413
+
+[ 2013-07-10T17:52:56+08:00 ]
+内存消耗:24.9765625
+
+###############[ 2013-07-10T17:52:56+08:00 ]###############

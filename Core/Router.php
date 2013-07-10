@@ -38,6 +38,9 @@ class Router {
                 return self::parseRouter($router_url, $config);
                 break;
             case self::PATHINFO:
+                $pathinfo=$_SERVER['PATH_INFO'];
+                $router_url = rtrim($pathinfo, '/');
+                return self::parseRouter($router_url, $config);
                 break;
         }
     }

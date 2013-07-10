@@ -11,7 +11,7 @@ final class Tools {
      * @param type $path    要加加载文件的完整路径
      * @param type $is_return 是否直接返回包含的内容
      */
-    static public function import($path = null, $is_return = false) {
+    static public function import($path = null, $is_return = false, $throwex = true) {
         static $_file = array();
         if ($path == null && $is_return == false) {
             return $_file;
@@ -28,15 +28,19 @@ final class Tools {
                 require $path;
                 return $_file[$path] = true;
             } else {
-                throw new Exception(Tools::txt("{0} Is Not Exists", $path));
+                if ($throwex) {
+                    throw new Exception(Tools::txt("{0} Is Not Exists", $path), E_USER_WARNING);
+                } else {
+                    return false;
+                }
             }
         }
     }
 
     /**
      * 日志的内容添加参数
-     * @param type $filename 文件名称
-     * @param type $content 要添加的文件内容
+     * @param string $filename 文件名称
+     * @param string $content 要添加的文件内容
      */
     static public function fileappend($filename, $content) {
         $file_handler = fopen($filename, 'a');
@@ -47,10 +51,10 @@ final class Tools {
 
     /**
      * 批量包含文件
-     * @param type $files   文件名=>文件路径 的数组
-     * @return type 返回成功加载的数组
+     * @param array $files   文件名=>文件路径 的数组
+     * @return array 返回成功加载的数组
      */
-    static public function imports($files) {
+    static public function imports(array $files) {
         $result = array();
         foreach ($files as $class => $file) {
             $result[$class] = Tools::import($file);
