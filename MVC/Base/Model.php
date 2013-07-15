@@ -11,14 +11,17 @@
  * @author WXY
  */
 class Model {
+
     /**
-     *  Ative 
+     *  AR
      * @var type 
      */
-    private $_model_active=array();
+    private $_model_active = array();
     //put your code here
-    static public function newModel($model) {
-        
+    private $_sql_conn;
+
+    static public function openSql($tablename = null) {
+        $this->_sql_conn=  Db::
     }
 
 }

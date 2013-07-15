@@ -32,7 +32,8 @@ final class App {
         'Event' => 'Core/Event.php',
         'Controller' => 'MVC/Base/Controller.php',
         'Model' => 'MVC/Base/Model.php',
-        'View' => 'MVC/Base/View.php'
+        'View' => 'MVC/Base/View.php',
+        'Db'=>'Core/Db.php'
     );
 
     /**
@@ -48,7 +49,6 @@ final class App {
         $router_url_array = Router::getParms();
         ob_end_clean();
         App::start($router_url_array);
-       
     }
 
     static public function start($router_url_array) {
@@ -59,6 +59,7 @@ final class App {
             if (class_exists($controller)) {
                 $class = Controller::newClass($controller);
                 if (method_exists($class, $action)) {
+                    $config->router_flag = array('class' => $controller, 'action' => $action);
                     if (empty($router_url_array['parms'])) {
                         call_user_func(array($class, $action));
                     } else {
@@ -70,7 +71,8 @@ final class App {
             }
         } catch (Exception $e) {
             $class = Controller::newClass($config->class_error . "_class");
-            call_user_func(array($class, $action));
+            $config->router_flag = array('class' => $config->class_error . "_class", 'action' => $action);
+            call_user_func_array(array($class, $action), (array) $e);
         }
     }
 
@@ -115,20 +117,25 @@ final class App {
             Tools::import(APP_ROOT . self::$_proload[$classname]);
             return;
         }
-        if (strtolower(substr($classname, -5)) == 'class') {
-            $class = str_ireplace('_class', '', $classname);
-            Tools::import(CLASS_DIR . $class . '.class.php');
-            return;
+        $prefix = strtolower(substr($classname, -5));
+        switch ($prefix) {
+            case 'class':
+                $class = str_ireplace('_class', '', $classname);
+                Tools::import(CLASS_DIR . $class . '.class.php');
+                break;
+            case 'model':
+                $class = str_ireplace('model', '', $classname);
+                Tools::import(MODEL_DIR . $class . '.model.php');
+                break;
+            case 'event':
+                $class = str_ireplace('event', '', $classname);
+                Tools::import(EVE_DIR . $class . '.event.php');
+                break;
+            default :
+                break;
         }
-        if (strtolower(substr($classname, -5)) == 'model') {
-            $class = str_ireplace('model', '', $classname);
-            Tools::import(MODEL_DIR . $class . '.model.php');
-            return;
-        }
-        if (strtolower(substr($classname, -5)) == 'event') {
-            $class = str_ireplace('event', '', $classname);
-            Tools::import(EVE_DIR . $class . '.event.php');
-            return;
+        if (isset($class)) {
+            return true;
         }
     }
 
