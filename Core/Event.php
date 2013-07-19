@@ -10,14 +10,14 @@
  *
  * @author WXY
  */
-class Event {
+abstract class Event {
 
     /**
      *  事件列表
      * @var array
      */
     static public $_event_list = array();
-
+    
     /**
      * 触发事件
      * @param string $EventName 事件名称
@@ -41,13 +41,13 @@ class Event {
             }
         }
     }
-    
+
     /**
      * 添加事件
      * @param string $EventName 事件名
      * @param callable $callback 方法或者对象,方法会被直接运行 对象则运行其中的Run方法
      */
-    static public function add(string $EventName, callable $callback) {
+    static public function add(string $EventName,$callback) {
         $EventNameList = Tools::xcode(self::$_event_list[$EventName]);
         $EventNameList[] = $callback;
         self::$_event_list[$EventName] = $EventNameList;

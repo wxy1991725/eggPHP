@@ -1,0 +1,232 @@
+
+[ 2013-07-18T16:00:30+08:00 ]
+call_user_func() expects parameter 1 to be a valid callback, non-static method filterEvent::run() should not be called statically (D:\wamp\www\eggPHP\Core\Event.php:38)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(104): halt()
+#1 unknown(0): appError()
+#2 D:\wamp\www\eggPHP\Core\Event.php(38): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(203): happen()
+#4 D:\wamp\www\eggPHP\Public\index.php(40): init()
+REQUEST_URI=/
+
+[ 2013-07-18T16:00:30+08:00 ]
+call_user_func() expects parameter 1 to be a valid callback, non-static method filterEvent::run() should not be called statically (D:\wamp\www\eggPHP\Core\Event.php:38)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(104): halt()
+#1 unknown(0): appError()
+#2 D:\wamp\www\eggPHP\Core\Event.php(38): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(203): happen()
+#4 D:\wamp\www\eggPHP\Public\index.php(40): init()
+REQUEST_URI=/
+
+[ 2013-07-18T16:00:30+08:00 ]
+运行时间:0.098006010055542
+
+[ 2013-07-18T16:00:30+08:00 ]
+内存消耗:103.453125
+
+###############[ 2013-07-18T16:00:30+08:00 ]###############
+
+[ 2013-07-18T16:00:32+08:00 ]
+call_user_func() expects parameter 1 to be a valid callback, non-static method filterEvent::run() should not be called statically (D:\wamp\www\eggPHP\Core\Event.php:38)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(104): halt()
+#1 unknown(0): appError()
+#2 D:\wamp\www\eggPHP\Core\Event.php(38): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(203): happen()
+#4 D:\wamp\www\eggPHP\Public\index.php(40): init()
+REQUEST_URI=/
+
+[ 2013-07-18T16:00:32+08:00 ]
+call_user_func() expects parameter 1 to be a valid callback, non-static method filterEvent::run() should not be called statically (D:\wamp\www\eggPHP\Core\Event.php:38)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(104): halt()
+#1 unknown(0): appError()
+#2 D:\wamp\www\eggPHP\Core\Event.php(38): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(203): happen()
+#4 D:\wamp\www\eggPHP\Public\index.php(40): init()
+REQUEST_URI=/
+
+[ 2013-07-18T16:00:32+08:00 ]
+运行时间:0.022001028060913
+
+[ 2013-07-18T16:00:32+08:00 ]
+内存消耗:103.453125
+
+###############[ 2013-07-18T16:00:32+08:00 ]###############
+
+[ 2013-07-18T16:00:50+08:00 ]
+Cannot make non static method Event::run() static in class filterEvent (D:\wamp\www\eggPHP\Common\Events\filter.event.php:42)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-18T16:00:50+08:00 ]
+Cannot make non static method Event::run() static in class filterEvent (D:\wamp\www\eggPHP\Common\Events\filter.event.php:42)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-18T16:00:50+08:00 ]
+运行时间:0.020001173019409
+
+[ 2013-07-18T16:00:50+08:00 ]
+内存消耗:96.390625
+
+###############[ 2013-07-18T16:00:50+08:00 ]###############
+
+[ 2013-07-18T16:00:50+08:00 ]
+Cannot make non static method Event::run() static in class filterEvent (D:\wamp\www\eggPHP\Common\Events\filter.event.php:42)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-18T16:00:50+08:00 ]
+Cannot make non static method Event::run() static in class filterEvent (D:\wamp\www\eggPHP\Common\Events\filter.event.php:42)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(96): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-18T16:00:50+08:00 ]
+运行时间:0.012000799179077
+
+[ 2013-07-18T16:00:50+08:00 ]
+内存消耗:96.390625
+
+###############[ 2013-07-18T16:00:50+08:00 ]###############
+
+[ 2013-07-18T16:01:26+08:00 ]
+运行时间:0.017000913619995
+
+[ 2013-07-18T16:01:26+08:00 ]
+内存消耗:102.796875
+
+###############[ 2013-07-18T16:01:26+08:00 ]###############
+
+[ 2013-07-18T16:04:42+08:00 ]
+运行时间:0.059002876281738
+
+[ 2013-07-18T16:04:42+08:00 ]
+内存消耗:102.796875
+
+###############[ 2013-07-18T16:04:42+08:00 ]###############
+
+[ 2013-07-18T16:04:45+08:00 ]
+运行时间:0.023000955581665
+
+[ 2013-07-18T16:04:45+08:00 ]
+内存消耗:102.796875
+
+###############[ 2013-07-18T16:04:45+08:00 ]###############
+
+[ 2013-07-18T16:10:56+08:00 ]
+运行时间:0.30301809310913
+
+[ 2013-07-18T16:10:56+08:00 ]
+内存消耗:102.796875
+
+###############[ 2013-07-18T16:10:56+08:00 ]###############
+
+[ 2013-07-18T16:41:39+08:00 ]
+运行时间:124.91914486885
+
+[ 2013-07-18T16:41:39+08:00 ]
+内存消耗:120.25
+
+###############[ 2013-07-18T16:41:39+08:00 ]###############
+
+[ 2013-07-18T16:42:13+08:00 ]
+运行时间:1.0840620994568
+
+[ 2013-07-18T16:42:13+08:00 ]
+内存消耗:112.3828125
+
+###############[ 2013-07-18T16:42:13+08:00 ]###############
+
+[ 2013-07-18T16:42:19+08:00 ]
+运行时间:1.0250589847565
+
+[ 2013-07-18T16:42:19+08:00 ]
+内存消耗:112.375
+
+###############[ 2013-07-18T16:42:19+08:00 ]###############
+
+[ 2013-07-18T16:42:22+08:00 ]
+运行时间:1.0380589962006
+
+[ 2013-07-18T16:42:22+08:00 ]
+内存消耗:112.3828125
+
+###############[ 2013-07-18T16:42:22+08:00 ]###############
+
+[ 2013-07-18T16:42:27+08:00 ]
+运行时间:1.0410599708557
+
+[ 2013-07-18T16:42:27+08:00 ]
+内存消耗:112.3828125
+
+###############[ 2013-07-18T16:42:27+08:00 ]###############
+
+[ 2013-07-18T16:42:36+08:00 ]
+运行时间:1.0220580101013
+
+[ 2013-07-18T16:42:36+08:00 ]
+内存消耗:112.25
+
+###############[ 2013-07-18T16:42:36+08:00 ]###############
+
+[ 2013-07-18T16:42:38+08:00 ]
+运行时间:0.015000820159912
+
+[ 2013-07-18T16:42:38+08:00 ]
+内存消耗:112.25
+
+###############[ 2013-07-18T16:42:38+08:00 ]###############
+
+[ 2013-07-18T16:43:25+08:00 ]
+运行时间:0.063004016876221
+
+[ 2013-07-18T16:43:25+08:00 ]
+内存消耗:112.25
+
+###############[ 2013-07-18T16:43:25+08:00 ]###############
+
+[ 2013-07-18T16:43:30+08:00 ]
+运行时间:0.013000965118408
+
+[ 2013-07-18T16:43:30+08:00 ]
+内存消耗:112.25
+
+###############[ 2013-07-18T16:43:30+08:00 ]###############
+
+[ 2013-07-18T16:47:22+08:00 ]
+运行时间:0.065003156661987
+
+[ 2013-07-18T16:47:22+08:00 ]
+内存消耗:112.25
+
+###############[ 2013-07-18T16:47:22+08:00 ]###############
+
+[ 2013-07-18T16:48:23+08:00 ]
+运行时间:0.018000841140747
+
+[ 2013-07-18T16:48:23+08:00 ]
+内存消耗:112.25
+
+###############[ 2013-07-18T16:48:23+08:00 ]###############
+
+[ 2013-07-18T17:02:29+08:00 ]
+运行时间:0.061003923416138
+
+[ 2013-07-18T17:02:29+08:00 ]
+内存消耗:112.25
+
+###############[ 2013-07-18T17:02:29+08:00 ]###############

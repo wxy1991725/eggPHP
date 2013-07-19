@@ -13,7 +13,16 @@ return array(
         'db_host' => '127.0.0.1',
         'db_name' => 'demo',
         'db_usr' => 'root',
-        'db_pwd' => 'root'
-    )
+        'db_pwd' => 'root',
+        'db_prefix'=>'yx_'
+    ),
+    'server' => array(
+        'db_driver' => 'mysql',
+        'db_host' => '127.0.0.1',
+        'db_name' => 'demo',
+        'db_usr' => 'root',
+        'db_pwd' => 'root',
+        'db_prefix'=>'yx_'
+    ),
 );
 ?>

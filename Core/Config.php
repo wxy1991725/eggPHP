@@ -19,16 +19,38 @@ final class Config {
     private $_user_config = array();
 
     /**
+     * 其他配置纺织地点
+     * @var type 
+     */
+    private $_user_other = array();
+
+    /**
      * 取得配置类的实例，无则创建一个
      * @param type $config 载入
      * @return Config  配置对象
      */
-    static public function instance($config = null) {
+    static public function instance() {
         static $_self = null;
-        if ($_self === null) {
-            return $_self = new self($config);
+        $parms = func_get_args();
+        if (is_array($parms[0])) {
+            $type = isset($parms[1]) ? $parms[1] : 'config';
+            if ($_self[$type] == null) {
+                return $_self[$type] = new self($parms[0], $type);
+            } else {
+                return $_self[$type];
+            }
+        } elseif (is_string($parms[0])) {
+            return $_self[$parms[0]];
+        }
+    }
+
+    static function loadConfig($type = 'config') {
+        $configfile = RUN_DIR . 'config' . DS . Debug::get_env() . DS . $type . '.php';
+        if (file_exists($configfile)) {
+            $config = Tools::import($configfile, true);
+            return static::instance($config, $type);
         } else {
-            return $_self;
+            throw new Exception($configfile . '文件不存在!');
         }
     }
 
@@ -37,8 +59,8 @@ final class Config {
      * @param string $name 要获得的属性
      * @return object 内容
      */
-    static public function getConfig($name) {
-        return self::instance()->$name;
+    static public function getConfig($name, $config = 'config') {
+        return self::instance($config)->$name;
     }
 
     /**
@@ -65,9 +87,13 @@ final class Config {
      * 预先加载好配置文件
      * @param type $config 配置数组 
      */
-    public function __construct($config) {
-        foreach ($config as $key => $value) {
-            $this->_user_config[$key] = $value;
+    public function __construct($config, $type) {
+        if ($type == 'config') {
+            foreach ($config as $key => $value) {
+                $this->_user_config[$key] = $value;
+            }
+        } else {
+            
         }
     }
 

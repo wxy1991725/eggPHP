@@ -4,10 +4,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-if (!defined(APP_ROOT)) {
-    exit();
+if(!defined('CORE_DIR')) {
+    exit('Access');
 }
-
 return array(
     'timezone' => 'PRC',
     'error_level' => E_ALL,

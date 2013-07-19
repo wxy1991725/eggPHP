@@ -22,11 +22,11 @@ define('APP_MODE', 'dev');
 /**
  * 基础工具类
  */
-require COMMON_DIR . 'Tools.php';
+require CORE_DIR . 'Tools.php';
 /**
  * 加载配置数组
  */
-$config = Tools::import(RUN_DIR . 'config' . DS . APP_MODE . DS . 'config.php', true);
+$config = Tools::import(RUN_DIR . 'Config' . DS . APP_MODE . DS . 'config.php', true);
 
 /*
  * 核心类导入

@@ -14,7 +14,7 @@ class home_class extends Controller {
 
     //put your code here
     function index_action() {
-       
+        var_dump(gethostbyname('www.baidu.com'));
     }
 
 }

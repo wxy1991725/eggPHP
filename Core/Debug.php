@@ -58,6 +58,19 @@ final class Debug {
     }
 
     /**
+     * 
+     * @param type $name
+     * @param type $info
+     */
+    static public function show($name, $info) {
+        if (self::get_env() == 'dev') {
+            self::time($name, $info);
+            self::memory($name, $info);
+            return self::$_trace_array[$name];
+        }
+    }
+
+    /**
      * 调试用内存
      * @param string $name 键值
      * @param type $info 备注
@@ -115,7 +128,7 @@ final class Debug {
             return $log;
         }
     }
-    
+
 }
 
 ?>

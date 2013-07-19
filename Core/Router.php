@@ -17,7 +17,7 @@ class Router {
     const TRADITION = 0;
     const PATHINFO = 1;
     const YII = 2;
-    const REGX = 3;
+    const YIIREGX = 3;
 
     static public function fetchUrl() {
         $app_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', __FILE__);
@@ -31,6 +31,12 @@ class Router {
         $url_type_setting = $config->url_type_setting;
         switch ($config->url_type) {
             case self::TRADITION:
+
+                break;
+            case self::YIIREGX:
+                $router = $url_type_setting[self::YII];
+                $router_url = rtrim($_GET[$router['router_parm']], '/');
+                return self::parseRegxRouter($router_url, $config);
                 break;
             case self::YII:
                 $router = $url_type_setting[self::YII];
@@ -38,10 +44,35 @@ class Router {
                 return self::parseRouter($router_url, $config);
                 break;
             case self::PATHINFO:
-                $pathinfo=$_SERVER['PATH_INFO'];
+                $pathinfo = $_SERVER['PATH_INFO'];
                 $router_url = rtrim($pathinfo, '/');
                 return self::parseRouter($router_url, $config);
                 break;
+        }
+    }
+
+    static private function getRouter() {
+        static $_router;
+        if (empty($_router))
+            $_router = Config::loadConfig('router');
+        return $_router;
+    }
+
+    static private function parseRegxRouter($url, $config) {
+        $default_array = array(
+            'class' => $config->class_default,
+            'action' => $config->action_default,
+            'parms' => array()
+        );
+        if (empty($url)) {
+            return $default_array;
+        }
+        if ($url != htmlentities($url)) {
+            return $default_array;
+        }
+        $routers = self::getRouter();
+        foreach ($routers as $reg => $router) {
+            
         }
     }
 
@@ -52,6 +83,9 @@ class Router {
             'parms' => array()
         );
         if (empty($router_url)) {
+            return $default_array;
+        }
+        if ($router_url != htmlentities($router_url)) {
             return $default_array;
         }
         $router_url = strip_tags($router_url);
@@ -71,5 +105,7 @@ class Router {
         }
         return $default_array;
     }
+
 }
+
 ?>

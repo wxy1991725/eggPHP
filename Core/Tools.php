@@ -36,6 +36,27 @@ final class Tools {
             }
         }
     }
+    /**
+     * 
+     * @param type $filename
+     * @param type $param
+     * @return \helperName
+     */
+    static public function loadHelper($filename, $param) {
+        $fileArray = explode('.', $filename);
+        if (empty($fileArray)) {
+            trigger_error(Tools::txt('{file}参数不可为空', array('file' => $filename)));
+        } else {
+            $helperName = $fileArray[count($fileArray) - 1];
+            $helperPath = implode(DS, $fileArray) . '.helper.php';
+            if (file_exists(HELPER_DIR . $helperPath)) {
+                Tools::import(HELPER_DIR . $helperPath);
+                return new $helperName($param);
+            } else {
+                trigger_error(Tools::txt('{0}文件不存在!', $helperPath));
+            }
+        }
+    }
 
     /**
      * 日志的内容添加参数

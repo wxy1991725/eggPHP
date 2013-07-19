@@ -33,7 +33,7 @@ final class App {
         'Controller' => 'MVC/Base/Controller.php',
         'Model' => 'MVC/Base/Model.php',
         'View' => 'MVC/Base/View.php',
-        'Db'=>'Core/Db.php'
+        'Db' => 'Core/Db.php'
     );
 
     /**
@@ -173,6 +173,7 @@ final class App {
         define('EVE_DIR', COMMON_DIR . 'Events' . DS); //事件文件夹
         define('CLASS_DIR', APP_ROOT . 'MVC' . DS . 'Class' . DS);
         define('MODEL_DIR', APP_ROOT . 'MVC' . DS . 'Model' . DS);
+        define('HELPER_DIR', SYS_EXT_DIR . 'Helper' . DS); //助手文件夹
         /**
          * 自定义 错误与载入机制
          */

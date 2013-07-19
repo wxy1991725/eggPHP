@@ -13,19 +13,15 @@
 class filterEvent extends Event {
 
     static function run() {
-        ob_end_clean();
         foreach (array('_GET', '_POST', '_COOKIE') as $_request) {
             if (!empty($$_request)) {
                 foreach ($$_request as $_k => $_v) {
                     ${$_k} = self::RunMagicQuotes($_v);
-                    if(is_string($_k)){
-                        
-                    }
                 }
             }
         }
     }
-
+    
     /**
      * 批量转义过滤函数 取自dedecms
      * @param type $str
