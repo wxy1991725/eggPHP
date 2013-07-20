@@ -34,7 +34,7 @@ class Router {
 
                 break;
             case self::YIIREGX:
-                $router = $url_type_setting[self::YII];
+                $router = $url_type_setting[self::YIIREGX];
                 $router_url = rtrim($_GET[$router['router_parm']], '/');
                 return self::parseRegxRouter($router_url, $config);
                 break;
@@ -64,16 +64,83 @@ class Router {
             'action' => $config->action_default,
             'parms' => array()
         );
+        $routers = self::getRouter();
+        //主目录直接返回默认配置
         if (empty($url)) {
-            return $default_array;
+            return isset($routers['*']) ? $routers[0] : $default_array;
         }
         if ($url != htmlentities($url)) {
-            return $default_array;
+            return isset($routers['*']) ? $routers[0] : $default_array;
         }
-        $routers = self::getRouter();
-        foreach ($routers as $reg => $router) {
-            
+        unset($routers['*']);
+        $rule = array();
+        $keys = array_keys($routers);
+        $vlaues = array_values($routers);
+        foreach ($keys as $k => $router) {
+            if (strpos('/', $router) === 0 && strrpos('/', $router) != strlen($router)) {
+                //是否是正则路由
+                preg_match_all($router, $url, $matches);
+            } else {
+                //是否是规则路由
+                $reg1 = explode($config['router_del'], $router);
+                $reg2 = explode($config['router_del'], $url);
+                $match = true;
+                if (count($reg2) >= count($reg1)) {
+                    foreach ($reg1 as $key => $vlaue) {
+                        if (':' == substr($vlaue, 0, 1)) {
+                            if (strpos('\\', $vlaue)) {
+                                $type = substr($vlaue, -1);
+                                if ($type == 'd') {
+                                    if (!is_numeric($reg2[$key])) {
+                                        $match = false;
+                                        break;
+                                    }
+                                    $rule[substr($vlaue, 0, -1)] = $reg2[$key];
+                                }
+                            } elseif (strpos('^', $vlaue)) {
+                                $array = explode('|', substr(strstr('^', $vlaue), 1));
+                                if (in_array($reg2[$key], $array)) {
+                                    $match = false;
+                                    break;
+                                }
+                                $rule[substr($vlaue, 0, (strstr('^', $vlaue) - 1))] = $reg2[$key];
+                            }
+                        } elseif (0 !== strcasecmp($vlaue, $reg2)) {
+                            $match = false;
+                            break;
+                        }
+                    }
+                    if ($match) {
+                        return self::parseRegxUrl($vlaues[$k], $rule);
+                    }
+                } else {
+                    continue;
+                }
+            }
         }
+    }
+
+    // array( 'news','read',array('id'=>':id') )   array(':id'=>2,':user'=>'name')
+    static private function parseRegxUrl($regx, $rule = null) {
+        if (empty($rule)) {
+            return $regx;
+        }
+        foreach ($rule as $key => $val) {
+            if ($key == $regx[0]) {
+                $regx[0] = $val;
+            }
+            if ($key == $regx[1]) {
+                $regx[1] = $val;
+            }
+            if (array_key_exists($key, $regx['parms'])) {
+                $regx['parms'][$key] = $val;
+            }
+            if ($k = array_search($key, $regx['parms'])) {
+                $regx['parms'][$k] = $val;
+            }
+            unset($rule[$key]);
+        }
+        array_merge($array1);
     }
 
     static private function parseRouter($router_url, $config) {
