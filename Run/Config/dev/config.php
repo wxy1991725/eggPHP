@@ -15,7 +15,7 @@ return array(
         'default_class' => 'home',
         'default_action' => 'index',
     ),
-    'url_type' => 2,
+    'url_type' => 3,
     'class_default' => 'home',
     'action_default' => 'index',
     'class_error' => 'error',

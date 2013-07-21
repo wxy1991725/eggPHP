@@ -20,7 +20,7 @@ class Model {
     private $_sql_conn;
 
     static public function openSql($tablename = null) {
-        $this->_sql_conn=  Db::
+        $this->_sql_conn=  Db::build($table);
     }
 }
 ?>

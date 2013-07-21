@@ -10,19 +10,13 @@
  * 单例模式，全项目可获取
  * @author WXY
  */
-final class Config {
+class Config implements ArrayAccess {
 
     /**
      *  用户配置存储数组
      * @var type 
      */
     private $_user_config = array();
-
-    /**
-     * 其他配置纺织地点
-     * @var type 
-     */
-    private $_user_other = array();
 
     /**
      * 取得配置类的实例，无则创建一个
@@ -32,10 +26,14 @@ final class Config {
     static public function instance() {
         static $_self = null;
         $parms = func_get_args();
-        if (is_array($parms[0])) {
+        if (empty($parms)) {
+            return $_self['config'];
+        }
+        if (!empty($parms) && is_array($parms[0])) {
             $type = isset($parms[1]) ? $parms[1] : 'config';
-            if ($_self[$type] == null) {
-                return $_self[$type] = new self($parms[0], $type);
+            if (!isset($_self[$type])) {
+                $_self[$type] = new self($parms[0], $type);
+                return $_self[$type]->_user_config;
             } else {
                 return $_self[$type];
             }
@@ -88,12 +86,8 @@ final class Config {
      * @param type $config 配置数组 
      */
     public function __construct($config, $type) {
-        if ($type == 'config') {
-            foreach ($config as $key => $value) {
-                $this->_user_config[$key] = $value;
-            }
-        } else {
-            
+        foreach ($config as $key => $value) {
+            $this->_user_config[$key] = $value;
         }
     }
 
@@ -132,6 +126,28 @@ final class Config {
 
     public function storge() {
         return serialize($this->_user_config);
+    }
+
+    public function offsetExists($offset) {
+        if (isset($this->_user_config[$offset])) {
+            return true;
+        }
+    }
+
+    public function offsetGet($offset) {
+        if (isset($this->_user_config[$offset])) {
+            return $this->_user_config[$offset];
+        } else {
+            return null;
+        }
+    }
+
+    public function offsetSet($offset, $value) {
+        $this->_user_config[$offset] = $value;
+    }
+
+    public function offsetUnset($offset) {
+        unset($this->_user_config[$offset]);
     }
 
 }

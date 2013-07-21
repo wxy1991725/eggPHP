@@ -1,0 +1,2196 @@
+
+[ 2013-07-21T11:20:04+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-21T11:20:04+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-21T11:20:04+08:00 ]
+运行时间:0.17200994491577
+
+[ 2013-07-21T11:20:04+08:00 ]
+内存消耗:129.796875
+
+###############[ 2013-07-21T11:20:04+08:00 ]###############
+
+[ 2013-07-21T12:03:28+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-21T12:03:28+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/
+
+[ 2013-07-21T12:03:28+08:00 ]
+运行时间:0.016000986099243
+
+[ 2013-07-21T12:03:28+08:00 ]
+内存消耗:129.796875
+
+###############[ 2013-07-21T12:03:28+08:00 ]###############
+
+[ 2013-07-21T12:05:30+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:05:30+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:05:30+08:00 ]
+运行时间:0.010000944137573
+
+[ 2013-07-21T12:05:30+08:00 ]
+内存消耗:130.1015625
+
+###############[ 2013-07-21T12:05:30+08:00 ]###############
+
+[ 2013-07-21T12:08:08+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:08:08+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:08:08+08:00 ]
+运行时间:0.010999917984009
+
+[ 2013-07-21T12:08:08+08:00 ]
+内存消耗:130.1171875
+
+###############[ 2013-07-21T12:08:08+08:00 ]###############
+
+[ 2013-07-21T12:08:25+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:08:25+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:08:25+08:00 ]
+运行时间:0.0090010166168213
+
+[ 2013-07-21T12:08:25+08:00 ]
+内存消耗:130.125
+
+###############[ 2013-07-21T12:08:25+08:00 ]###############
+
+[ 2013-07-21T12:10:29+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:10:29+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:10:29+08:00 ]
+运行时间:0.010000944137573
+
+[ 2013-07-21T12:10:29+08:00 ]
+内存消耗:130.1171875
+
+###############[ 2013-07-21T12:10:29+08:00 ]###############
+
+[ 2013-07-21T12:16:22+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:16:22+08:00 ]
+D:\upupw\htdocs\eggPHP\MVC\Class\.class.php Is Not Exists (D:\upupw\htdocs\eggPHP\Core\Tools.php:32)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(104): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(80): appError()
+#2 unknown(0): appException()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:16:22+08:00 ]
+运行时间:6.1453521251678
+
+[ 2013-07-21T12:16:22+08:00 ]
+内存消耗:130.015625
+
+###############[ 2013-07-21T12:16:22+08:00 ]###############
+
+[ 2013-07-21T12:25:46+08:00 ]
+运行时间:554.79573297501
+
+[ 2013-07-21T12:25:46+08:00 ]
+内存消耗:166.7265625
+
+###############[ 2013-07-21T12:25:46+08:00 ]###############
+
+[ 2013-07-21T12:25:58+08:00 ]
+运行时间:0.024002075195312
+
+[ 2013-07-21T12:25:58+08:00 ]
+内存消耗:132.203125
+
+###############[ 2013-07-21T12:25:58+08:00 ]###############
+
+[ 2013-07-21T12:26:13+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:26:13+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:26:13+08:00 ]
+运行时间:0.041002035140991
+
+[ 2013-07-21T12:26:13+08:00 ]
+内存消耗:126.890625
+
+###############[ 2013-07-21T12:26:13+08:00 ]###############
+
+[ 2013-07-21T12:27:13+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:27:13+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T12:27:13+08:00 ]
+运行时间:0.034001111984253
+
+[ 2013-07-21T12:27:13+08:00 ]
+内存消耗:126.8359375
+
+###############[ 2013-07-21T12:27:13+08:00 ]###############
+
+[ 2013-07-21T12:36:46+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:36:46+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:36:46+08:00 ]
+运行时间:495.34233117104
+
+[ 2013-07-21T12:36:46+08:00 ]
+内存消耗:155.015625
+
+###############[ 2013-07-21T12:36:46+08:00 ]###############
+
+[ 2013-07-21T12:41:29+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:41:29+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:41:47+08:00 ]
+运行时间:281.92012500763
+
+[ 2013-07-21T12:41:48+08:00 ]
+内存消耗:144.625
+
+###############[ 2013-07-21T12:42:10+08:00 ]###############
+
+[ 2013-07-21T12:42:26+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:42:26+08:00 ]
+Cannot use object of type Config as array (D:\upupw\htdocs\eggPHP\Core\Router.php:69)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:42:26+08:00 ]
+运行时间:9.88556599617
+
+[ 2013-07-21T12:42:26+08:00 ]
+内存消耗:127.5234375
+
+###############[ 2013-07-21T12:42:26+08:00 ]###############
+
+[ 2013-07-21T12:43:57+08:00 ]
+Class Config contains 4 abstract methods and must therefore be declared abstract or implement the remaining methods (ArrayAccess::offsetExists, ArrayAccess::offsetGet, ArrayAccess::offsetSet, ...) (D:\upupw\htdocs\eggPHP\Core\Config.php:142)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:43:57+08:00 ]
+Class Config contains 4 abstract methods and must therefore be declared abstract or implement the remaining methods (ArrayAccess::offsetExists, ArrayAccess::offsetGet, ArrayAccess::offsetSet, ...) (D:\upupw\htdocs\eggPHP\Core\Config.php:142)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(96): halt()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(150): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-07-21T12:43:57+08:00 ]
+运行时间:0.045002937316895
+
+[ 2013-07-21T12:43:57+08:00 ]
+内存消耗:87.890625
+
+###############[ 2013-07-21T12:43:57+08:00 ]###############
+
+[ 2013-07-21T12:49:09+08:00 ]
+运行时间:0.016000986099243
+
+[ 2013-07-21T12:49:09+08:00 ]
+内存消耗:136.6015625
+
+###############[ 2013-07-21T12:49:09+08:00 ]###############
+
+[ 2013-07-21T12:49:19+08:00 ]
+运行时间:0.024000883102417
+
+[ 2013-07-21T12:49:19+08:00 ]
+内存消耗:136.6015625
+
+###############[ 2013-07-21T12:49:19+08:00 ]###############
+
+[ 2013-07-21T12:49:20+08:00 ]
+运行时间:0.012001037597656
+
+[ 2013-07-21T12:49:20+08:00 ]
+内存消耗:136.6015625
+
+###############[ 2013-07-21T12:49:20+08:00 ]###############
+
+[ 2013-07-21T12:49:22+08:00 ]
+运行时间:0.011000156402588
+
+[ 2013-07-21T12:49:22+08:00 ]
+内存消耗:136.6015625
+
+###############[ 2013-07-21T12:49:22+08:00 ]###############
+
+[ 2013-07-21T12:53:01+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:53:01+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:53:01+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:53:01+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:53:01+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:53:01+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:53:01+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:53:01+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:53:01+08:00 ]
+运行时间:0.080004930496216
+
+[ 2013-07-21T12:53:01+08:00 ]
+内存消耗:140.28125
+
+###############[ 2013-07-21T12:53:01+08:00 ]###############
+
+[ 2013-07-21T12:53:40+08:00 ]
+运行时间:0.060003995895386
+
+[ 2013-07-21T12:53:40+08:00 ]
+内存消耗:137.046875
+
+###############[ 2013-07-21T12:53:40+08:00 ]###############
+
+[ 2013-07-21T12:57:04+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:04+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:04+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:04+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:04+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:04+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:04+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:04+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:04+08:00 ]
+运行时间:197.27228283882
+
+[ 2013-07-21T12:57:04+08:00 ]
+内存消耗:160.65625
+
+###############[ 2013-07-21T12:57:04+08:00 ]###############
+
+[ 2013-07-21T12:57:12+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:12+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:12+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:12+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:12+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:12+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:12+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:12+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:12+08:00 ]
+运行时间:0.019001007080078
+
+[ 2013-07-21T12:57:12+08:00 ]
+内存消耗:140.09375
+
+###############[ 2013-07-21T12:57:12+08:00 ]###############
+
+[ 2013-07-21T12:57:14+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:14+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:14+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:14+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:14+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:14+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:14+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:14+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T12:57:14+08:00 ]
+运行时间:0.022001981735229
+
+[ 2013-07-21T12:57:14+08:00 ]
+内存消耗:140.09375
+
+###############[ 2013-07-21T12:57:14+08:00 ]###############
+
+[ 2013-07-21T13:17:46+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:17:46+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:17:46+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:17:46+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:17:46+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:17:46+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:17:46+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:17:46+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:17:46+08:00 ]
+运行时间:0.027001857757568
+
+[ 2013-07-21T13:17:46+08:00 ]
+内存消耗:140.09375
+
+###############[ 2013-07-21T13:17:46+08:00 ]###############
+
+[ 2013-07-21T13:18:17+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:18:17+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:18:17+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:18:17+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:18:17+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:18:17+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:18:17+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:18:17+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:18:17+08:00 ]
+运行时间:0.022001981735229
+
+[ 2013-07-21T13:18:17+08:00 ]
+内存消耗:140.09375
+
+###############[ 2013-07-21T13:18:17+08:00 ]###############
+
+[ 2013-07-21T13:25:46+08:00 ]
+运行时间:372.4183011055
+
+[ 2013-07-21T13:25:48+08:00 ]
+内存消耗:178.9296875
+
+###############[ 2013-07-21T13:25:55+08:00 ]###############
+
+[ 2013-07-21T13:26:10+08:00 ]
+运行时间:0.018001079559326
+
+[ 2013-07-21T13:26:10+08:00 ]
+内存消耗:136.921875
+
+###############[ 2013-07-21T13:26:10+08:00 ]###############
+
+[ 2013-07-21T13:26:27+08:00 ]
+运行时间:0.028002023696899
+
+[ 2013-07-21T13:26:27+08:00 ]
+内存消耗:136.9296875
+
+###############[ 2013-07-21T13:26:27+08:00 ]###############
+
+[ 2013-07-21T13:26:29+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:26:29+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:26:29+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:26:29+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:26:29+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:26:29+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:26:29+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:26:29+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:26:29+08:00 ]
+运行时间:0.015001058578491
+
+[ 2013-07-21T13:26:29+08:00 ]
+内存消耗:140.1328125
+
+###############[ 2013-07-21T13:26:29+08:00 ]###############
+
+[ 2013-07-21T13:26:55+08:00 ]
+运行时间:0.030001163482666
+
+[ 2013-07-21T13:26:55+08:00 ]
+内存消耗:136.9296875
+
+###############[ 2013-07-21T13:26:55+08:00 ]###############
+
+[ 2013-07-21T13:32:26+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:26+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:26+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:26+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:27+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:27+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:31+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:31+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:32+08:00 ]
+运行时间:327.69374299049
+
+[ 2013-07-21T13:32:32+08:00 ]
+内存消耗:174.765625
+
+###############[ 2013-07-21T13:32:32+08:00 ]###############
+
+[ 2013-07-21T13:32:34+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:34+08:00 ]
+array_keys() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:76)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:34+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:34+08:00 ]
+array_values() expects parameter 1 to be array, object given (D:\upupw\htdocs\eggPHP\Core\Router.php:77)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:34+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:34+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:78)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:34+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:34+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:32:34+08:00 ]
+运行时间:0.033002138137817
+
+[ 2013-07-21T13:32:34+08:00 ]
+内存消耗:140.0390625
+
+###############[ 2013-07-21T13:32:34+08:00 ]###############
+
+[ 2013-07-21T13:34:29+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:34:29+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:34:29+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:34:29+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:34:30+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:34:30+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:34:30+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:34:30+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:34:30+08:00 ]
+运行时间:0.049002885818481
+
+[ 2013-07-21T13:34:30+08:00 ]
+内存消耗:140.1953125
+
+###############[ 2013-07-21T13:34:30+08:00 ]###############
+
+[ 2013-07-21T13:36:45+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:36:45+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:36:45+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:36:45+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:36:45+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:36:45+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:36:45+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:36:45+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:36:45+08:00 ]
+运行时间:127.40728712082
+
+[ 2013-07-21T13:36:45+08:00 ]
+内存消耗:149.4453125
+
+###############[ 2013-07-21T13:36:45+08:00 ]###############
+
+[ 2013-07-21T13:46:25+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:25+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:25+08:00 ]
+运行时间:576.5279750824
+
+[ 2013-07-21T13:46:25+08:00 ]
+内存消耗:157.4921875
+
+###############[ 2013-07-21T13:46:25+08:00 ]###############
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Config.php(63): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Event.php(27): getConfig()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(203): happen()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(39): init()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Config.php(63): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Event.php(27): getConfig()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(203): happen()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(39): init()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Config.php(63): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Event.php(27): getConfig()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(203): happen()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(39): init()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Config.php(63): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Event.php(27): getConfig()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(203): happen()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(39): init()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(31): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(31): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(31): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(31): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(32): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(32): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(32): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(32): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(62): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(62): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(62): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(62): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(63): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(63): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(63): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(63): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(73): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(73): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(73): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(73): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(74): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+get_object_vars() expects parameter 1 to be object, string given (D:\upupw\htdocs\eggPHP\Core\Config.php:132)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(74): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(74): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Config.php:133)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(74): Config->__get()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:46:31+08:00 ]
+运行时间:0.093006134033203
+
+[ 2013-07-21T13:46:31+08:00 ]
+内存消耗:150.515625
+
+###############[ 2013-07-21T13:46:31+08:00 ]###############
+
+[ 2013-07-21T13:48:07+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:48:07+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:48:07+08:00 ]
+运行时间:0.034002065658569
+
+[ 2013-07-21T13:48:07+08:00 ]
+内存消耗:137.0390625
+
+###############[ 2013-07-21T13:48:07+08:00 ]###############
+
+[ 2013-07-21T13:52:11+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:11+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:14+08:00 ]
+运行时间:235.98649692535
+
+[ 2013-07-21T13:52:14+08:00 ]
+内存消耗:162.5859375
+
+###############[ 2013-07-21T13:52:14+08:00 ]###############
+
+[ 2013-07-21T13:52:34+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:34+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:34+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:34+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:34+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:34+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:34+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:34+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:34+08:00 ]
+运行时间:0.037001848220825
+
+[ 2013-07-21T13:52:34+08:00 ]
+内存消耗:138.890625
+
+###############[ 2013-07-21T13:52:34+08:00 ]###############
+
+[ 2013-07-21T13:52:48+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:48+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:48+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:48+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:48+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:48+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:48+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:48+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:52:55+08:00 ]
+运行时间:11.37265086174
+
+[ 2013-07-21T13:52:57+08:00 ]
+内存消耗:138.8671875
+
+###############[ 2013-07-21T13:53:10+08:00 ]###############
+
+[ 2013-07-21T13:58:12+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:58:12+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:84)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:58:16+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T13:58:16+08:00 ]
+explode(): Empty delimiter (D:\upupw\htdocs\eggPHP\Core\Router.php:85)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:00:04+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:00:04+08:00 ]
+Invalid argument supplied for foreach() (D:\upupw\htdocs\eggPHP\Core\Router.php:88)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:00:04+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:00:04+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:00:04+08:00 ]
+运行时间:405.26618003845
+
+[ 2013-07-21T14:00:04+08:00 ]
+内存消耗:172.8203125
+
+###############[ 2013-07-21T14:00:04+08:00 ]###############
+
+[ 2013-07-21T14:01:55+08:00 ]
+strcasecmp() expects parameter 2 to be string, array given (D:\upupw\htdocs\eggPHP\Core\Router.php:107)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:01:55+08:00 ]
+strcasecmp() expects parameter 2 to be string, array given (D:\upupw\htdocs\eggPHP\Core\Router.php:107)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:03:02+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:03:02+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:03:02+08:00 ]
+运行时间:174.59198594093
+
+[ 2013-07-21T14:03:02+08:00 ]
+内存消耗:160.7890625
+
+###############[ 2013-07-21T14:03:02+08:00 ]###############
+
+[ 2013-07-21T14:03:06+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:03:06+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:03:06+08:00 ]
+运行时间:0.037002086639404
+
+[ 2013-07-21T14:03:06+08:00 ]
+内存消耗:136.640625
+
+###############[ 2013-07-21T14:03:06+08:00 ]###############
+
+[ 2013-07-21T14:09:37+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:37+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:37+08:00 ]
+运行时间:385.38604283333
+
+[ 2013-07-21T14:09:37+08:00 ]
+内存消耗:153.609375
+
+###############[ 2013-07-21T14:09:37+08:00 ]###############
+
+[ 2013-07-21T14:09:42+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:140)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:42+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:140)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:42+08:00 ]
+array_search() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:143)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:42+08:00 ]
+array_search() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:143)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:42+08:00 ]
+array_merge(): Argument #1 is not an array (D:\upupw\htdocs\eggPHP\Core\Router.php:148)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:42+08:00 ]
+array_merge(): Argument #1 is not an array (D:\upupw\htdocs\eggPHP\Core\Router.php:148)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:42+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:42+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:42+08:00 ]
+运行时间:0.045002937316895
+
+[ 2013-07-21T14:09:42+08:00 ]
+内存消耗:140.046875
+
+###############[ 2013-07-21T14:09:42+08:00 ]###############
+
+[ 2013-07-21T14:09:57+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:140)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:57+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:140)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:57+08:00 ]
+array_search() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:143)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:57+08:00 ]
+array_search() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:143)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:57+08:00 ]
+array_merge(): Argument #1 is not an array (D:\upupw\htdocs\eggPHP\Core\Router.php:148)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:57+08:00 ]
+array_merge(): Argument #1 is not an array (D:\upupw\htdocs\eggPHP\Core\Router.php:148)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:57+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:57+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:09:57+08:00 ]
+运行时间:3.309189081192
+
+[ 2013-07-21T14:09:57+08:00 ]
+内存消耗:140.046875
+
+###############[ 2013-07-21T14:09:57+08:00 ]###############
+
+[ 2013-07-21T14:12:45+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:140)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:12:45+08:00 ]
+array_key_exists() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:140)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:12:46+08:00 ]
+array_search() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:143)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:12:46+08:00 ]
+array_search() expects parameter 2 to be array, null given (D:\upupw\htdocs\eggPHP\Core\Router.php:143)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:13:31+08:00 ]
+array_merge(): Argument #1 is not an array (D:\upupw\htdocs\eggPHP\Core\Router.php:148)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:13:31+08:00 ]
+array_merge(): Argument #1 is not an array (D:\upupw\htdocs\eggPHP\Core\Router.php:148)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\Router.php(119): parseRegxUrl()
+#1 D:\upupw\htdocs\eggPHP\Core\Router.php(38): parseRegxRouter()
+#2 D:\upupw\htdocs\eggPHP\Core\App.php(49): getParms()
+#3 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:13:31+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:13:31+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:13:31+08:00 ]
+运行时间:204.08267188072
+
+[ 2013-07-21T14:13:31+08:00 ]
+内存消耗:159.421875
+
+###############[ 2013-07-21T14:13:31+08:00 ]###############
+
+[ 2013-07-21T14:13:35+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:13:35+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:13:35+08:00 ]
+运行时间:0.031002044677734
+
+[ 2013-07-21T14:13:35+08:00 ]
+内存消耗:137.09375
+
+###############[ 2013-07-21T14:13:35+08:00 ]###############
+
+[ 2013-07-21T14:15:43+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:15:43+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:15:43+08:00 ]
+运行时间:119.97686219215
+
+[ 2013-07-21T14:15:43+08:00 ]
+内存消耗:155.25
+
+###############[ 2013-07-21T14:15:43+08:00 ]###############
+
+[ 2013-07-21T14:15:47+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:15:47+08:00 ]
+call_user_func_array() expects parameter 1 to be a valid callback, class 'error_class' does not have a method '_action' (D:\upupw\htdocs\eggPHP\Core\App.php:75)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#1 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?r=news/1
+
+[ 2013-07-21T14:15:47+08:00 ]
+运行时间:0.031002044677734
+
+[ 2013-07-21T14:15:47+08:00 ]
+内存消耗:137.09375
+
+###############[ 2013-07-21T14:15:47+08:00 ]###############
+
+[ 2013-07-21T14:20:17+08:00 ]
+运行时间:265.02615809441
+
+[ 2013-07-21T14:20:17+08:00 ]
+内存消耗:154.4453125
+
+###############[ 2013-07-21T14:20:17+08:00 ]###############
+
+[ 2013-07-21T14:20:21+08:00 ]
+运行时间:0.031002044677734
+
+[ 2013-07-21T14:20:21+08:00 ]
+内存消耗:136.9453125
+
+###############[ 2013-07-21T14:20:21+08:00 ]###############
+
+[ 2013-07-21T14:20:45+08:00 ]
+运行时间:0.021002054214478
+
+[ 2013-07-21T14:20:45+08:00 ]
+内存消耗:137.1015625
+
+###############[ 2013-07-21T14:20:45+08:00 ]###############
+
+[ 2013-07-21T14:20:48+08:00 ]
+运行时间:0.018001079559326
+
+[ 2013-07-21T14:20:48+08:00 ]
+内存消耗:137.1015625
+
+###############[ 2013-07-21T14:20:48+08:00 ]###############
+
+[ 2013-07-21T14:23:48+08:00 ]
+运行时间:0.029001951217651
+
+[ 2013-07-21T14:23:48+08:00 ]
+内存消耗:137.15625
+
+###############[ 2013-07-21T14:23:48+08:00 ]###############
+
+[ 2013-07-21T14:24:04+08:00 ]
+运行时间:0.011001110076904
+
+[ 2013-07-21T14:24:04+08:00 ]
+内存消耗:137.1640625
+
+###############[ 2013-07-21T14:24:04+08:00 ]###############
+
+[ 2013-07-21T14:25:12+08:00 ]
+运行时间:0.026001930236816
+
+[ 2013-07-21T14:25:12+08:00 ]
+内存消耗:137.1640625
+
+###############[ 2013-07-21T14:25:12+08:00 ]###############
+
+[ 2013-07-21T14:26:26+08:00 ]
+Missing argument 1 for home_class::index_action() (D:\upupw\htdocs\eggPHP\MVC\Class\home.class.php:16)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(64): call_user_func()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T14:26:26+08:00 ]
+Missing argument 1 for home_class::index_action() (D:\upupw\htdocs\eggPHP\MVC\Class\home.class.php:16)
+Stack trace:
+#0 D:\upupw\htdocs\eggPHP\Core\App.php(64): call_user_func()
+#1 D:\upupw\htdocs\eggPHP\Core\App.php(51): start()
+#2 D:\upupw\htdocs\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/?XDEBUG_SESSION_START=netbeans-xdebug
+
+[ 2013-07-21T14:26:26+08:00 ]
+运行时间:31.564806222916
+
+[ 2013-07-21T14:26:26+08:00 ]
+内存消耗:142.5703125
+
+###############[ 2013-07-21T14:26:26+08:00 ]###############
+
+[ 2013-07-21T14:26:51+08:00 ]
+运行时间:0.030000925064087
+
+[ 2013-07-21T14:26:51+08:00 ]
+内存消耗:137.1875
+
+###############[ 2013-07-21T14:26:51+08:00 ]###############
+
+[ 2013-07-21T14:31:59+08:00 ]
+运行时间:301.64025306702
+
+[ 2013-07-21T14:31:59+08:00 ]
+内存消耗:154.65625
+
+###############[ 2013-07-21T14:31:59+08:00 ]###############
+
+[ 2013-07-21T14:32:18+08:00 ]
+运行时间:15.030859947205
+
+[ 2013-07-21T14:32:18+08:00 ]
+内存消耗:137.1015625
+
+###############[ 2013-07-21T14:32:18+08:00 ]###############
+
+[ 2013-07-21T14:53:46+08:00 ]
+运行时间:0.028002023696899
+
+[ 2013-07-21T14:53:46+08:00 ]
+内存消耗:137.1171875
+
+###############[ 2013-07-21T14:53:46+08:00 ]###############
+
+[ 2013-07-21T15:10:10+08:00 ]
+运行时间:0.062003135681152
+
+[ 2013-07-21T15:10:10+08:00 ]
+内存消耗:137.25
+
+###############[ 2013-07-21T15:10:10+08:00 ]###############
+
+[ 2013-07-21T15:13:11+08:00 ]
+运行时间:0.012001037597656
+
+[ 2013-07-21T15:13:11+08:00 ]
+内存消耗:138.328125
+
+###############[ 2013-07-21T15:13:11+08:00 ]###############
+
+[ 2013-07-21T15:13:13+08:00 ]
+运行时间:0.021001100540161
+
+[ 2013-07-21T15:13:13+08:00 ]
+内存消耗:138.328125
+
+###############[ 2013-07-21T15:13:13+08:00 ]###############
+
+[ 2013-07-21T15:13:29+08:00 ]
+运行时间:0.072004079818726
+
+[ 2013-07-21T15:13:29+08:00 ]
+内存消耗:138.328125
+
+###############[ 2013-07-21T15:13:29+08:00 ]###############

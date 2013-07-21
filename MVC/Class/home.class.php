@@ -13,7 +13,8 @@
 class home_class extends Controller {
 
     //put your code here
-    function index_action() {
+    function index_action($id = null) {
+        echo $id;
         var_dump(gethostbyname('www.baidu.com'));
     }
 
