@@ -94,7 +94,6 @@ class Router {
                             $is_named = false;
                             if (strpos($vlaue, "\\")) {
                                 $type = substr($vlaue, -1);
-
                                 switch ($type) {
                                     case 'd':
                                         if (!is_numeric($reg2[$key])) {
