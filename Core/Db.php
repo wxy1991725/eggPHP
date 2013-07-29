@@ -12,15 +12,29 @@ class Db {
     protected $_db_driver;
     protected $_db_host;
     protected $_db_user;
-    protected $_db_root;
-    protected $_db_database;
-    protected $_db_prefix;
-    protected $_db_charset;
+    protected $_db_root;//数据库用户名
+    protected $_db_database;//数据库名
+    protected $_db_prefix;//前缀
+    protected $_db_charset;//数据库编码
+    protected $_db_type;//数据库类型
+
+    /**
+     *  数据库pdo实例
+     * @var pdo 
+     */
     private $_db_obj;
 
+    /**
+     * 建立数据库连接
+     * @staticvar null $_model_db 记录连接的资源 用于单例使用
+     * @param type $table 表名
+     * @param type $rest 是否重置连接
+     * @param type $dbconfig 数据库配置
+     * @return Db 返回连接的数据库实例
+     */
     static public function build($table, $rest = false, $dbconfig = 'local') {
         static $_model_db = null;
-        if ($rest === true && $dbconfig != 'local') {
+        if ($rest === true) {
             $_model_db = null;
         }
         if (!isset($_model_db)) {
@@ -42,17 +56,23 @@ class Db {
         $this->_db_tablename = $this->_db_prefix . $table;
         try {
             switch (strtolower($this->_db_driver)) {
-
                 case 'pdo':
                 default :
                     $this->_db_obj = new PDO(
                             $this->_db_type . ':host=' . $$this->_db_host . ';dbname=' . $this->_db_database, $$this->_db_user, $this->_db_charset
                     );
+                    $this->_db_obj->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                     break;
             }
-        } catch (Exception $e) {
+        } catch (PDOException $e) {
             trigger_error('Sql Error!!');
+            
+            return false;
         }
+    }
+
+    private function getTableInfo() {
+        
     }
 
     /**

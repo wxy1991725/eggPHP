@@ -22,7 +22,6 @@ class Router {
     static public function fetchUrl() {
         $app_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', __FILE__);
         $url = str_replace($app_path, '', $_SERVER['REQUEST_URI']);
-        $url = strip_tags($url);
         return $url;
     }
 
@@ -35,6 +34,12 @@ class Router {
         $url_type_setting = $config->url_type_setting;
         switch ($config->url_type) {
             case self::TRADITION:
+                $url = static::fetchUrl();
+                if ($url == htmlentities($string)) {
+                    
+                } else {
+                    return self::parseRouter();
+                }
                 break;
             case self::YIIREGX:
                 $router = $url_type_setting[self::YIIREGX];
@@ -166,7 +171,7 @@ class Router {
         return $default_router;
     }
 
-    static private function parseRouter($router_url, $config) {
+    static private function parseRouter($router_url = null, $config = null) {
         $default_array = array(
             'class' => $config->class_default,
             'action' => $config->action_default,
