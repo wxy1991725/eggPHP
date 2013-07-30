@@ -85,7 +85,7 @@ class Config implements ArrayAccess {
      * 预先加载好配置文件
      * @param type $config 配置数组 
      */
-    public function __construct($config, $type) {
+    public function __construct($config) {
         foreach ($config as $key => $value) {
             $this->_user_config[$key] = $value;
         }

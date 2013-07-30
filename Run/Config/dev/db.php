@@ -11,6 +11,7 @@ return array(
     'local' => array(
         'db_driver' => 'mysql',
         'db_host' => '127.0.0.1',
+        'db_port'=>3306,
         'db_name' => 'demo',
         'db_usr' => 'root',
         'db_pwd' => 'root',
@@ -19,6 +20,7 @@ return array(
     'server' => array(
         'db_driver' => 'mysql',
         'db_host' => '127.0.0.1',
+        'db_port'=>3306,
         'db_name' => 'demo',
         'db_usr' => 'root',
         'db_pwd' => 'root',

@@ -32,18 +32,18 @@ class Controller {
      * @param type $modelname
      * @return Model
      */
-    public function getModel($modelname = null) {
+    public function getModel($modelname = null, $prefix = '', $config = array()) {
         if ($modelname == null) {
             $modelname = $this->config->router_flag['class'];
         }
         if (class_exists($modelname . "_model")) {
             $model = $modelname . "_model";
-            return new $model;
+            return new $model($modelname, $prefix, $config);
         } else {
-            return new Model();
+            return new Model($modelname, $prefix, $config);
         }
     }
-    
+
 }
 
 ?>
