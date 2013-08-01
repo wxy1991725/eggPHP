@@ -128,8 +128,25 @@ class Model {
                 $this->_table_name = $tablename;
             }
         }
-        if ('' != $prefix) {
-            $this->_db_config_prefix = $conncetion['db_prefix'];
+        if ("" != $prefix) {
+            $this->_db_config_prefix = $prefix;
+        } else {
+            $this->_db_config_prefix = isset($conncetion['db_prefix']) ? $conncetion['db_prefix'] : "";
+        }
+        $this->db(0, $conncetion);
+    }
+
+    function db($linkNum = '', $config = "") {
+        static $_db = array();
+        static $_linkNum = array();
+        if ($linkNum === '' && $config === "") {
+            return $_linkNum;
+        }
+        if (!isset($_db[$linkNum]) || (isset($_db[$linkNum]) && $config && $_linkNum[$linkNum] != $config)) {
+            if (!empty($config) && is_string($config)) {
+                $config = self::getConfig($config);
+            }
+            $_db[$linkNum]=  Db::build($config);
         }
     }
 
