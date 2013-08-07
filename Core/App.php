@@ -51,6 +51,9 @@ final class App {
         App::start($router_url_array);
     }
 
+    /**
+     * @param $router_url_array
+     */
     static public function start($router_url_array) {
         $config = Config::instance();
         $controller = $router_url_array['class'] . "_class";
@@ -173,7 +176,8 @@ final class App {
         define('EVE_DIR', COMMON_DIR . 'Events' . DS); //事件文件夹
         define('CLASS_DIR', APP_ROOT . 'MVC' . DS . 'Class' . DS);
         define('MODEL_DIR', APP_ROOT . 'MVC' . DS . 'Model' . DS);
-        define('HELPER_DIR', SYS_EXT_DIR . 'Helper' . DS); //助手文件夹
+        define('HELPER_DIR', SYS_EXT_DIR . 'Helpers' . DS); //助手文件夹
+        define('MODELCACHE_DIR', RUN_DIR . 'ModelCache' . DS); //字段缓存文件夹
         /**
          * 自定义 错误与载入机制
          */
@@ -200,7 +204,9 @@ final class App {
             set_include_path(get_include_path() . PATH_SEPARATOR . $c_obj->include_path); //加载配置的包含路径
         error_reporting($c_obj->error_level);
         date_default_timezone_set($c_obj->timezone);
+        header('Content-Type:text/html;charset='.$c_obj->charset);
         Event::happen('app_init');
+        
     }
 
 }

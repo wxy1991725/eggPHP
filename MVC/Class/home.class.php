@@ -14,8 +14,11 @@ class home_class extends Controller {
 
     //put your code here
     function index_action($id = null) {
-        echo $id;
-        var_dump(gethostbyname('www.baidu.com'));
+        
+        Tools::loadHelper('ip');
+//        $area = $ip->getlocation('122.240.151.204');
+//        $country=  iconv('GBK', 'UTF-8', $area['country']);
+//        echo $country
     }
 
 }

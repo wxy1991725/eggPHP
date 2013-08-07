@@ -57,7 +57,7 @@ class Ip {
      */
     public function __construct($filename = null) {
         if ($filename == null) {
-            $filename = EXT_DIR . 'UTFWry.dat';
+            $filename =  'qqwry.dat';
         }
         $this->fp = 0;
         if (($this->fp = fopen(dirname(__FILE__) . '/' . $filename, 'rb')) !== false) {

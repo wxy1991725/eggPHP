@@ -8,6 +8,7 @@ if (!defined('CORE_DIR')) {
     exit('Access');
 }
 return array(
+    'charset'=>'utf-8',
     'timezone' => 'PRC',
     'error_level' => E_ALL,
     'include_path' => '',

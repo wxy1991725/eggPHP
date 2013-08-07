@@ -42,7 +42,7 @@ final class Tools {
      * @param type $param
      * @return \helperName
      */
-    static public function loadHelper($filename, $param) {
+    static public function loadHelper($filename, $param=null) {
         $fileArray = explode('.', $filename);
         if (empty($fileArray)) {
             trigger_error(Tools::txt('{file}参数不可为空', array('file' => $filename)));

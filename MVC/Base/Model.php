@@ -55,10 +55,10 @@ class Model {
     protected $_table_name;
 
     /**
-     * 数据库表名
-     * @var type 
+     * 字段缓存
+     * @var array 
      */
-    protected $_table_name;
+    protected $_fields;
 
     /**
      * 数据库名
@@ -143,11 +143,54 @@ class Model {
             return $_linkNum;
         }
         if (!isset($_db[$linkNum]) || (isset($_db[$linkNum]) && $config && $_linkNum[$linkNum] != $config)) {
-            if (!empty($config) && is_string($config)) {
+            if (!empty($config) && is_string($config) && strpos($config, '/') === false) {
                 $config = self::getConfig($config);
             }
-            $_db[$linkNum]=  Db::build($config);
+            $_db[$linkNum] = Db::getIntance($config);
+        } elseif ($config === null) {
+            $_db[$linkNum]->close();
+            unset($_db[$linkNum]);
+            return;
         }
+        // 记录连接信息
+        $_linkNum[$linkNum] = $config;
+        // 切换数据库连接
+        $this->db = $_db[$linkNum];
+        $this->_after_db();
+        // 字段检测
+        if (!empty($this->_table_name))
+            $this->_checkTableInfo();
+        return $this;
+    }
+
+    private function _checkTableInfo() {
+        if (empty($this->_fields)) {
+            $db = MODELCACHE_DIR . $this->_database . "." . $this->_table_name . ".php";
+            if (file_exists($db)) {
+                $modelCache = Tools::import($db . '.php');
+                if ($modelCache) {
+                    $this->_fields = $modelCache;
+                    return;
+                }
+            }
+        }
+        $this->flush();
+    }
+
+    private function flush() {
+        
+    }
+
+    /**
+     * 数据库连接
+     * @param type $config
+     */
+    static private function build($config) {
+        
+    }
+
+    public function _after_db() {
+        
     }
 
     /**
@@ -155,7 +198,7 @@ class Model {
      * @param string $db
      * @return type
      */
-    static public function getConfig($db) {
+    static public function getConfig($db = 'local') {
         if (!isset(static::$_db_config_array))
             static::$_db_config_array = require RUN_DIR . 'config' . DS . Debug::get_env() . DS . 'db.php';
         if (isset(static::$_db_config_array[$db])) {

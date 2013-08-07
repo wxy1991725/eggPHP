@@ -1,0 +1,742 @@
+
+[ 2013-08-05T10:21:48+08:00 ]
+运行时间:0.25601506233215
+
+[ 2013-08-05T10:21:48+08:00 ]
+内存消耗:138.9921875
+
+###############[ 2013-08-05T10:21:48+08:00 ]###############
+
+[ 2013-08-05T11:13:21+08:00 ]
+运行时间:0.0260009765625
+
+[ 2013-08-05T11:13:21+08:00 ]
+内存消耗:139.015625
+
+###############[ 2013-08-05T11:13:21+08:00 ]###############
+
+[ 2013-08-05T08:09:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:09:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:09:34+00:00 ]
+运行时间:0.36002016067505
+
+[ 2013-08-05T08:09:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:09:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:09:34+00:00 ]
+内存消耗:116.0703125
+
+[ 2013-08-05T08:09:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:09:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+###############[ 2013-08-05T08:09:34+00:00 ]###############
+
+[ 2013-08-05T08:10:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:34+00:00 ]
+运行时间:0.021002054214478
+
+[ 2013-08-05T08:10:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:34+00:00 ]
+内存消耗:116.0703125
+
+[ 2013-08-05T08:10:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:34+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+###############[ 2013-08-05T08:10:34+00:00 ]###############
+
+[ 2013-08-05T08:10:37+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:37+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:37+00:00 ]
+运行时间:0.066003084182739
+
+[ 2013-08-05T08:10:37+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:37+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:37+00:00 ]
+内存消耗:116.0703125
+
+[ 2013-08-05T08:10:37+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:37+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+###############[ 2013-08-05T08:10:37+00:00 ]###############
+
+[ 2013-08-05T08:10:58+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:58+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:58+00:00 ]
+运行时间:0.021001100540161
+
+[ 2013-08-05T08:10:58+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:58+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:58+00:00 ]
+内存消耗:116.0703125
+
+[ 2013-08-05T08:10:58+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:10:58+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+###############[ 2013-08-05T08:10:58+00:00 ]###############
+
+[ 2013-08-05T08:11:12+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:11:12+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:11:12+00:00 ]
+运行时间:0.025001049041748
+
+[ 2013-08-05T08:11:12+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:11:12+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:11:12+00:00 ]
+内存消耗:116.0703125
+
+[ 2013-08-05T08:11:12+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:11:12+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+###############[ 2013-08-05T08:11:12+00:00 ]###############
+
+[ 2013-08-05T08:16:20+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:16:20+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(153): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:16:20+00:00 ]
+运行时间:0.19401216506958
+
+[ 2013-08-05T08:16:20+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:16:20+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:52)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(154): addDebug()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:16:20+00:00 ]
+内存消耗:116.0703125
+
+[ 2013-08-05T08:16:20+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+[ 2013-08-05T08:16:20+00:00 ]
+date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (D:\wamp\www\eggPHP\Core\Log.php:68)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(156): save()
+#1 unknown(0): fatalError()
+
+
+###############[ 2013-08-05T08:16:20+00:00 ]###############
+
+[ 2013-08-05T17:31:44+08:00 ]
+syntax error, unexpected ':' (D:\wamp\www\eggPHP\Extend\qqwry.dat:575)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(99): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(153): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-08-05T17:31:44+08:00 ]
+syntax error, unexpected ':' (D:\wamp\www\eggPHP\Extend\qqwry.dat:575)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(99): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(153): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-08-05T17:31:44+08:00 ]
+运行时间:0.64003705978394
+
+[ 2013-08-05T17:31:44+08:00 ]
+内存消耗:16536.765625
+
+###############[ 2013-08-05T17:31:44+08:00 ]###############
+
+[ 2013-08-05T17:32:21+08:00 ]
+Missing argument 2 for Tools::loadHelper(), called in D:\wamp\www\eggPHP\MVC\Class\home.class.php on line 17 and defined (D:\wamp\www\eggPHP\Core\Tools.php:45)
+Stack trace:
+#0 unknown(0): home_class->index_action()
+#1 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#2 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#3 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:32:21+08:00 ]
+Missing argument 2 for Tools::loadHelper(), called in D:\wamp\www\eggPHP\MVC\Class\home.class.php on line 17 and defined (D:\wamp\www\eggPHP\Core\Tools.php:45)
+Stack trace:
+#0 unknown(0): home_class->index_action()
+#1 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#2 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#3 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:32:21+08:00 ]
+ip.helper.php文件不存在! (D:\wamp\www\eggPHP\Core\Tools.php:56)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(17): loadHelper()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:32:21+08:00 ]
+ip.helper.php文件不存在! (D:\wamp\www\eggPHP\Core\Tools.php:56)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(17): loadHelper()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:32:21+08:00 ]
+Call to a member function getlocation() on a non-object (D:\wamp\www\eggPHP\MVC\Class\home.class.php:18)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(99): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(153): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-08-05T17:32:21+08:00 ]
+Call to a member function getlocation() on a non-object (D:\wamp\www\eggPHP\MVC\Class\home.class.php:18)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(99): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(153): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-08-05T17:32:21+08:00 ]
+运行时间:0.15600895881653
+
+[ 2013-08-05T17:32:21+08:00 ]
+内存消耗:142.734375
+
+###############[ 2013-08-05T17:32:21+08:00 ]###############
+
+[ 2013-08-05T17:33:36+08:00 ]
+require(D:\wamp\www\eggPHP\Extend\Helper\ip.helper.php): failed to open stream: No such file or directory (D:\wamp\www\eggPHP\MVC\Class\home.class.php:17)
+Stack trace:
+#0 unknown(0): home_class->index_action()
+#1 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#2 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#3 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:33:36+08:00 ]
+require(D:\wamp\www\eggPHP\Extend\Helper\ip.helper.php): failed to open stream: No such file or directory (D:\wamp\www\eggPHP\MVC\Class\home.class.php:17)
+Stack trace:
+#0 unknown(0): home_class->index_action()
+#1 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#2 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#3 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:33:36+08:00 ]
+require(): Failed opening required 'D:\wamp\www\eggPHP\Extend\Helper\ip.helper.php' (include_path='.;C:\php\pear') (D:\wamp\www\eggPHP\MVC\Class\home.class.php:17)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(99): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(153): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-08-05T17:33:36+08:00 ]
+require(): Failed opening required 'D:\wamp\www\eggPHP\Extend\Helper\ip.helper.php' (include_path='.;C:\php\pear') (D:\wamp\www\eggPHP\MVC\Class\home.class.php:17)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(99): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(153): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-08-05T17:33:36+08:00 ]
+运行时间:0.12800717353821
+
+[ 2013-08-05T17:33:36+08:00 ]
+内存消耗:142.953125
+
+###############[ 2013-08-05T17:33:36+08:00 ]###############
+
+[ 2013-08-05T17:33:43+08:00 ]
+require(D:\wamp\www\eggPHP\Extend\Helper\ip.helper.php): failed to open stream: No such file or directory (D:\wamp\www\eggPHP\MVC\Class\home.class.php:17)
+Stack trace:
+#0 unknown(0): home_class->index_action()
+#1 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#2 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#3 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:33:43+08:00 ]
+require(D:\wamp\www\eggPHP\Extend\Helper\ip.helper.php): failed to open stream: No such file or directory (D:\wamp\www\eggPHP\MVC\Class\home.class.php:17)
+Stack trace:
+#0 unknown(0): home_class->index_action()
+#1 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#2 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#3 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:33:43+08:00 ]
+require(): Failed opening required 'D:\wamp\www\eggPHP\Extend\Helper\ip.helper.php' (include_path='.;C:\php\pear') (D:\wamp\www\eggPHP\MVC\Class\home.class.php:17)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(99): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(153): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-08-05T17:33:43+08:00 ]
+require(): Failed opening required 'D:\wamp\www\eggPHP\Extend\Helper\ip.helper.php' (include_path='.;C:\php\pear') (D:\wamp\www\eggPHP\MVC\Class\home.class.php:17)
+Stack trace:
+#0 D:\wamp\www\eggPHP\Core\App.php(99): halt()
+#1 D:\wamp\www\eggPHP\Core\App.php(153): appError()
+#2 unknown(0): fatalError()
+REQUEST_URI=/
+
+[ 2013-08-05T17:33:43+08:00 ]
+运行时间:0.026001930236816
+
+[ 2013-08-05T17:33:43+08:00 ]
+内存消耗:142.953125
+
+###############[ 2013-08-05T17:33:43+08:00 ]###############
+
+[ 2013-08-05T17:34:01+08:00 ]
+fopen(D:\wamp\www\eggPHP\Extend\Helpers/D:\wamp\www\eggPHP\Common\Extend\UTFWry.dat): failed to open stream: Invalid argument (D:\wamp\www\eggPHP\Extend\Helpers\Ip.helper.php:63)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(18): Ip->__construct()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:34:01+08:00 ]
+fopen(D:\wamp\www\eggPHP\Extend\Helpers/D:\wamp\www\eggPHP\Common\Extend\UTFWry.dat): failed to open stream: Invalid argument (D:\wamp\www\eggPHP\Extend\Helpers\Ip.helper.php:63)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(18): Ip->__construct()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:34:01+08:00 ]
+运行时间:0.067004203796387
+
+[ 2013-08-05T17:34:01+08:00 ]
+内存消耗:168.546875
+
+###############[ 2013-08-05T17:34:01+08:00 ]###############
+
+[ 2013-08-05T17:34:29+08:00 ]
+fopen(D:\wamp\www\eggPHP\Extend\Helpers/D:\wamp\www\eggPHP\Common\Extend\qqwry.dat): failed to open stream: Invalid argument (D:\wamp\www\eggPHP\Extend\Helpers\Ip.helper.php:63)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(18): Ip->__construct()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:34:29+08:00 ]
+fopen(D:\wamp\www\eggPHP\Extend\Helpers/D:\wamp\www\eggPHP\Common\Extend\qqwry.dat): failed to open stream: Invalid argument (D:\wamp\www\eggPHP\Extend\Helpers\Ip.helper.php:63)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(18): Ip->__construct()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:34:29+08:00 ]
+运行时间:0.017000913619995
+
+[ 2013-08-05T17:34:29+08:00 ]
+内存消耗:168.546875
+
+###############[ 2013-08-05T17:34:29+08:00 ]###############
+
+[ 2013-08-05T17:34:38+08:00 ]
+fopen(D:\wamp\www\eggPHP\Extend\Helpers/D:\wamp\www\eggPHP\Common\Extend\qqwry.dat): failed to open stream: Invalid argument (D:\wamp\www\eggPHP\Extend\Helpers\Ip.helper.php:63)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(18): Ip->__construct()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:34:38+08:00 ]
+fopen(D:\wamp\www\eggPHP\Extend\Helpers/D:\wamp\www\eggPHP\Common\Extend\qqwry.dat): failed to open stream: Invalid argument (D:\wamp\www\eggPHP\Extend\Helpers\Ip.helper.php:63)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(18): Ip->__construct()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:34:38+08:00 ]
+运行时间:0.031001091003418
+
+[ 2013-08-05T17:34:38+08:00 ]
+内存消耗:168.546875
+
+###############[ 2013-08-05T17:34:38+08:00 ]###############
+
+[ 2013-08-05T17:35:21+08:00 ]
+fopen(D:\wamp\www\eggPHP\Extend\Helpers/D:\wamp\www\eggPHP\Extend\qqwry.dat): failed to open stream: Invalid argument (D:\wamp\www\eggPHP\Extend\Helpers\Ip.helper.php:63)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(18): Ip->__construct()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:35:21+08:00 ]
+fopen(D:\wamp\www\eggPHP\Extend\Helpers/D:\wamp\www\eggPHP\Extend\qqwry.dat): failed to open stream: Invalid argument (D:\wamp\www\eggPHP\Extend\Helpers\Ip.helper.php:63)
+Stack trace:
+#0 D:\wamp\www\eggPHP\MVC\Class\home.class.php(18): Ip->__construct()
+#1 unknown(0): home_class->index_action()
+#2 D:\wamp\www\eggPHP\Core\App.php(67): call_user_func()
+#3 D:\wamp\www\eggPHP\Core\App.php(51): start()
+#4 D:\wamp\www\eggPHP\Public\index.php(43): run()
+REQUEST_URI=/
+
+[ 2013-08-05T17:35:21+08:00 ]
+运行时间:0.021000862121582
+
+[ 2013-08-05T17:35:21+08:00 ]
+内存消耗:168.5234375
+
+###############[ 2013-08-05T17:35:21+08:00 ]###############
+
+[ 2013-08-05T17:35:48+08:00 ]
+运行时间:0.17600989341736
+
+[ 2013-08-05T17:35:48+08:00 ]
+内存消耗:167.1953125
+
+###############[ 2013-08-05T17:35:48+08:00 ]###############
+
+[ 2013-08-05T17:36:32+08:00 ]
+运行时间:0.12900805473328
+
+[ 2013-08-05T17:36:32+08:00 ]
+内存消耗:167.203125
+
+###############[ 2013-08-05T17:36:32+08:00 ]###############
+
+[ 2013-08-05T17:36:44+08:00 ]
+运行时间:0.19301104545593
+
+[ 2013-08-05T17:36:44+08:00 ]
+内存消耗:167.203125
+
+###############[ 2013-08-05T17:36:44+08:00 ]###############
+
+[ 2013-08-05T17:36:45+08:00 ]
+运行时间:0.038002014160156
+
+[ 2013-08-05T17:36:45+08:00 ]
+内存消耗:167.203125
+
+###############[ 2013-08-05T17:36:45+08:00 ]###############
+
+[ 2013-08-05T17:38:02+08:00 ]
+运行时间:0.024001121520996
+
+[ 2013-08-05T17:38:02+08:00 ]
+内存消耗:167.484375
+
+###############[ 2013-08-05T17:38:02+08:00 ]###############
+
+[ 2013-08-05T17:38:05+08:00 ]
+运行时间:0.027001857757568
+
+[ 2013-08-05T17:38:05+08:00 ]
+内存消耗:167.484375
+
+###############[ 2013-08-05T17:38:05+08:00 ]###############
+
+[ 2013-08-05T17:38:14+08:00 ]
+运行时间:0.030001878738403
+
+[ 2013-08-05T17:38:14+08:00 ]
+内存消耗:167.484375
+
+###############[ 2013-08-05T17:38:14+08:00 ]###############
+
+[ 2013-08-05T17:38:27+08:00 ]
+运行时间:0.024000883102417
+
+[ 2013-08-05T17:38:27+08:00 ]
+内存消耗:167.453125
+
+###############[ 2013-08-05T17:38:27+08:00 ]###############
+
+[ 2013-08-05T17:38:38+08:00 ]
+运行时间:0.030000925064087
+
+[ 2013-08-05T17:38:38+08:00 ]
+内存消耗:167.484375
+
+###############[ 2013-08-05T17:38:38+08:00 ]###############
+
+[ 2013-08-05T17:42:11+08:00 ]
+运行时间:0.18101000785828
+
+[ 2013-08-05T17:42:11+08:00 ]
+内存消耗:167.859375
+
+###############[ 2013-08-05T17:42:11+08:00 ]###############
+
+[ 2013-08-05T17:42:19+08:00 ]
+运行时间:0.030002117156982
+
+[ 2013-08-05T17:42:19+08:00 ]
+内存消耗:167.859375
+
+###############[ 2013-08-05T17:42:19+08:00 ]###############
+
+[ 2013-08-05T17:42:25+08:00 ]
+运行时间:0.025002002716064
+
+[ 2013-08-05T17:42:25+08:00 ]
+内存消耗:167.859375
+
+###############[ 2013-08-05T17:42:25+08:00 ]###############
+
+[ 2013-08-05T17:42:31+08:00 ]
+运行时间:0.056003093719482
+
+[ 2013-08-05T17:42:31+08:00 ]
+内存消耗:167.859375
+
+###############[ 2013-08-05T17:42:31+08:00 ]###############
+
+[ 2013-08-05T17:42:37+08:00 ]
+运行时间:0.025002002716064
+
+[ 2013-08-05T17:42:37+08:00 ]
+内存消耗:167.859375
+
+###############[ 2013-08-05T17:42:37+08:00 ]###############
+
+[ 2013-08-05T17:42:39+08:00 ]
+运行时间:0.035001993179321
+
+[ 2013-08-05T17:42:39+08:00 ]
+内存消耗:167.859375
+
+###############[ 2013-08-05T17:42:39+08:00 ]###############
+
+[ 2013-08-05T17:42:48+08:00 ]
+运行时间:0.023000955581665
+
+[ 2013-08-05T17:42:48+08:00 ]
+内存消耗:167.9140625
+
+###############[ 2013-08-05T17:42:48+08:00 ]###############
+
+[ 2013-08-05T17:43:06+08:00 ]
+运行时间:0.029001951217651
+
+[ 2013-08-05T17:43:06+08:00 ]
+内存消耗:168.2265625
+
+###############[ 2013-08-05T17:43:06+08:00 ]###############
+
+[ 2013-08-05T17:44:01+08:00 ]
+运行时间:0.037001848220825
+
+[ 2013-08-05T17:44:01+08:00 ]
+内存消耗:167.9140625
+
+###############[ 2013-08-05T17:44:01+08:00 ]###############
