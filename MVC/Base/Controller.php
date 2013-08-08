@@ -33,15 +33,20 @@ class Controller {
      * @return Model
      */
     public function getModel($modelname = null, $prefix = '', $config = array()) {
+        static $_model = array();
         if ($modelname == null) {
             $modelname = $this->config->router_flag['class'];
         }
-        if (class_exists($modelname . "_model")) {
-            $model = $modelname . "_model";
-            return new $model($modelname, $prefix, $config);
-        } else {
-            return new Model($modelname, $prefix, $config);
+        $id = $modelname . "_" . md5(serialize($config));
+        if (isset($_model[$id])) {
+            if (class_exists($modelname . "_model")) {
+                $model = $modelname . "_model";
+                $_model[$id] = new $model($modelname, $prefix, $config);
+            } else {
+                $_model[$id] = new Model($modelname, $prefix, $config);
+            }
         }
+        return $_model[$id];
     }
 
 }

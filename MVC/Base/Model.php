@@ -25,6 +25,12 @@ class Model {
     private $_model_result = array();
 
     /**
+     * 当前实例名
+     * @var Model 
+     */
+    private $name;
+
+    /**
      * 当前连接的数据库实例
      * @var type 
      */
@@ -35,6 +41,12 @@ class Model {
      * @var  boolean
      */
     private $_conn_active = false;
+
+    /**
+     *  带数据库+前缀+模型的字符串
+     * @var string 
+     */
+    private $trueTableName;
 
     /**
      * 主配置参数
@@ -66,15 +78,6 @@ class Model {
      */
     protected $_database;
     protected $_db_config_prefix = '';
-
-//    public function openSql($tablename = null) {
-//        $this->_sql_conn = Db::build($tablename);
-//        if ($this->_sql_conn) {
-//            $this->_conn_active = true;
-//        } else {
-//            $this->_conn_active = false;
-//        }
-//    }
 
     /**
      * 添加
@@ -167,7 +170,7 @@ class Model {
         if (empty($this->_fields)) {
             $db = MODELCACHE_DIR . $this->_database . "." . $this->_table_name . ".php";
             if (file_exists($db)) {
-                $modelCache = Tools::import($db . '.php');
+                $modelCache = Tools::import($db . '.php', true);
                 if ($modelCache) {
                     $this->_fields = $modelCache;
                     return;
@@ -178,7 +181,37 @@ class Model {
     }
 
     private function flush() {
-        
+        $this->db->setModel($this->name);
+        $fields = $this->db->getFields($this->getTableName());
+    }
+
+    /**
+     * 得到完整的数据表名
+     * @access public
+     * @return string
+     */
+    public function getTableName() {
+        if (empty($this->trueTableName)) {
+            $tableName = !empty($this->_db_config_prefix) ? $this->_db_config_prefix : '';
+            if (!empty($this->_table_name)) {
+                $tableName .= $this->_table_name;
+            } else {
+                $tableName .= parse_name($this->name);
+            }
+            $this->trueTableName = strtolower($tableName);
+        }
+        return (!empty($this->_database) ? $this->_database . '.' : '') . $this->trueTableName;
+    }
+
+    /**
+     * 得到当前的数据对象名称
+     * @access public
+     * @return string
+     */
+    public function getModelName() {
+        if (empty($this->name))
+            $this->name = substr(get_class($this), 0, -5);
+        return $this->name;
     }
 
     /**

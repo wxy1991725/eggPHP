@@ -1,14 +1,22 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+/**
+ *  仿TP的数据库中间类
  */
-
 class Db {
 
+    /**
+     * 配置参数
+     * @var array 
+     */
     protected static $_db_config_array = array();
     private $_db_tablename = null;
+
+    /**
+     * 当前操作所属的模型名
+     * @var string 
+     */
+    protected $model = '';
     protected $_db_driver;
     protected $_db_host;
     protected $_db_user;
@@ -17,6 +25,14 @@ class Db {
     protected $_db_prefix; //前缀
     protected $_db_charset; //数据库编码
     protected $_db_type; //数据库类型
+
+    /**
+     * 单例模式 存储与读取数据库实例
+     * @staticvar array $db_fool 数据库实例集
+     * @param type $config 配置参数
+     * @return Db 数据库实例 
+     * @throws Exception
+     */
 
     public static function getIntance($config) {
         static $db_fool = array();
@@ -32,11 +48,45 @@ class Db {
         return $db_fool[$id];
     }
 
+    /**
+     * 工厂生产实例
+     * @param type $config 数据库配置
+     * @return Db 数据库实例
+     * @throws Exception 如果选择的连接类型不存在 则抛出异常 
+     */
     function factory($config) {
         $db_config = $this->parseConfig($config);
         $this->dbType = ucwords(strtolower($db_config['db_driver']));
+        $class = $this->dbType . '_Db';
+        if (class_exists($class)) {
+            $db = $class($db_config);
+            if ('pdo' != strtolower($db_config['db_driver']))
+                $db->dbType = strtoupper($this->dbType);
+        }else {
+            throw new Exception("配置中的数据库驱动不存在");
+        }
+        return $db;
     }
 
+    /**
+     * 数据库调试 记录当前SQL
+     * @access protected
+     */
+    protected function debug() {
+        $this->modelSql[$this->model] = $this->queryStr;
+        $this->model = '_think_';
+        // 记录操作结束时间
+        if (C('DB_SQL_LOG')) {
+            G('queryEndTime');
+            trace($this->queryStr . ' [ RunTime:' . G('queryStartTime', 'queryEndTime', 6) . 's ]', '', 'SQL');
+        }
+    }
+
+    /**
+     * 转化配置，使之能被解读
+     * @param mixed $config  配置参数
+     * @return array 转化后的配置数组
+     */
     function parseConfig($config = "") {
         if (empty($config)) {
             $config = Model::getConfig();
@@ -47,7 +97,22 @@ class Db {
         return $db_config;
     }
 
-    public function parseDSN($dsnStr) {
+    /**
+     * 设置当前操作模型
+     * @access public
+     * @param string $model  模型名
+     * @return void
+     */
+    public function setModel($model) {
+        $this->model = $model;
+    }
+
+    /**
+     * 
+     * @param string $dsnStr DSN 表达式
+     * @return boolean|string
+     */
+    public function parseDSN(string $dsnStr) {
         if (empty($dsnStr)) {
             return false;
         }

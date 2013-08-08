@@ -137,6 +137,11 @@ final class App {
             default :
                 break;
         }
+        if (strtolower(substr($classname, -3)) == '_Db') {
+            Tools::import(DRIVER_DIR . $classname . '.php');
+            return;
+        }
+
         if (isset($class)) {
             return true;
         }
@@ -178,6 +183,7 @@ final class App {
         define('MODEL_DIR', APP_ROOT . 'MVC' . DS . 'Model' . DS);
         define('HELPER_DIR', SYS_EXT_DIR . 'Helpers' . DS); //助手文件夹
         define('MODELCACHE_DIR', RUN_DIR . 'ModelCache' . DS); //字段缓存文件夹
+        define('DRIVER_DIR', APP_ROOT . 'MVC' . DS . 'Dirver' . DS); //驱动存放文件夹
         /**
          * 自定义 错误与载入机制
          */
@@ -204,9 +210,8 @@ final class App {
             set_include_path(get_include_path() . PATH_SEPARATOR . $c_obj->include_path); //加载配置的包含路径
         error_reporting($c_obj->error_level);
         date_default_timezone_set($c_obj->timezone);
-        header('Content-Type:text/html;charset='.$c_obj->charset);
+        header('Content-Type:text/html;charset=' . $c_obj->charset);
         Event::happen('app_init');
-        
     }
 
 }
