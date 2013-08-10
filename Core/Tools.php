@@ -11,7 +11,7 @@ final class Tools {
      * @param type $path    要加加载文件的完整路径
      * @param type $is_return 是否直接返回包含的内容
      */
-    static public function import($path = null, $is_return = false, $throwex = true) {
+    static public function import($path = null, $is_return = false, $throwex = false) {
         static $_file = array();
         if ($path == null && $is_return == false) {
             return $_file;
@@ -62,9 +62,10 @@ final class Tools {
      * 日志的内容添加参数
      * @param string $filename 文件名称
      * @param string $content 要添加的文件内容
+     * @param string $name 文本流类型
      */
-    static public function fileappend($filename, $content) {
-        $file_handler = fopen($filename, 'a');
+    static public function fileappend($filename, $content,$type='a') {
+        $file_handler = fopen($filename, $type);
         if (!empty($content))
             fwrite($file_handler, $content);
         fclose($file_handler);

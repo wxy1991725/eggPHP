@@ -43,10 +43,10 @@ class Config implements ArrayAccess {
     }
 
     static function loadConfig($type = 'config') {
-        $configfile = RUN_DIR . 'config' . DS . Debug::get_env() . DS . $type . '.php';
+        $configfile = CONF_DIR . $type . '.php';
         if (file_exists($configfile)) {
             $config = Tools::import($configfile, true);
-            return static::instance($config, $type);
+            return self::instance($config, $type);
         } else {
             throw new Exception($configfile . '文件不存在!');
         }

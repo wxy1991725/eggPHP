@@ -19,6 +19,12 @@ class Model {
     private $_model_active = array();
 
     /**
+     * 数据库连接实例
+     * @var type 
+     */
+    private $db;
+
+    /**
      * 返回的结果集
      * @var type 
      */
@@ -29,7 +35,11 @@ class Model {
      * @var Model 
      */
     private $name;
-
+    /**
+     * 数据信息
+     * 
+     */
+    protected $data             =   array();
     /**
      * 当前连接的数据库实例
      * @var type 
@@ -58,7 +68,7 @@ class Model {
      * 数据库配置数组
      * @var type 
      */
-    private $_db_config_array;
+    static private $_db_config_array;
 
     /**
      * 数据库表名
@@ -79,39 +89,51 @@ class Model {
     protected $_database;
     protected $_db_config_prefix = '';
 
-    /**
-     * 添加
-     * @return type
-     */
-    function insert() {
-        if ($this->_conn_active) {
-            return $this->_sql_conn->insert($this->_model_active);
-        } else {
-            throw new Exception('数据库拒绝访问!');
-        }
-    }
 
     /**
-     * 更新
-     * @return type
+     * 设置数据对象的值
+     * @access public
+     * @param string $name 名称
+     * @param mixed $value 值
+     * @return void
      */
-    function update() {
-        if ($this->_conn_active) {
-            return $this->_sql_conn->update($this->_model_active);
-        } else {
-            throw new Exception('数据库拒绝访问!');
-        }
+    public function __set($name,$value) {
+        // 设置数据对象属性
+        $this->data[$name]  =   $value;
     }
 
-    public function __set($name, $value) {
-        $this->_model_active[$name] = $value;
-    }
-
+    /**
+     * 获取数据对象的值
+     * @access public
+     * @param string $name 名称
+     * @return mixed
+     */
     public function __get($name) {
-        return isset($this->_model_result[$name]) ? $this->_model_result[$name] : null;
+        return isset($this->data[$name])?$this->data[$name]:null;
     }
 
-    public function __construct(string $tablename = '', $prefix = '', $conncetion = array()) {
+    /**
+     * 检测数据对象的值
+     * @access public
+     * @param string $name 名称
+     * @return boolean
+     */
+    public function __isset($name) {
+        return isset($this->data[$name]);
+    }
+
+    /**
+     * 销毁数据对象的值
+     * @access public
+     * @param string $name 名称
+     * @return void
+     */
+    public function __unset($name) {
+        unset($this->data[$name]);
+    }
+
+
+    public function __construct($tablename = '', $prefix = '', $conncetion = array()) {
         $this->_init();
         if (is_string($conncetion)) {
             $conncetion = self::getConfig($conncetion);
@@ -167,22 +189,38 @@ class Model {
     }
 
     private function _checkTableInfo() {
+        $db = MODELCACHE_DIR . $this->_database . "." . $this->_db_config_prefix . $this->_table_name . ".php";
         if (empty($this->_fields)) {
-            $db = MODELCACHE_DIR . $this->_database . "." . $this->_table_name . ".php";
             if (file_exists($db)) {
-                $modelCache = Tools::import($db . '.php', true);
+                $modelCache = Tools::import($db, true);
                 if ($modelCache) {
                     $this->_fields = $modelCache;
                     return;
                 }
             }
         }
-        $this->flush();
+        $this->flush($db);
     }
 
-    private function flush() {
+    private function flush($db) {
         $this->db->setModel($this->name);
         $fields = $this->db->getFields($this->getTableName());
+        if (!$fields) { // 无法获取字段信息
+            return false;
+        }
+        $this->_fields = array_keys($fields);
+        $this->_fields['_autoinc'] = false;
+        foreach ($fields as $key => $val) {
+            // 记录字段类型
+            $type[$key] = $val['type'];
+            if ($val['primary']) {
+                $this->_fields['_pk'] = $key;
+                if ($val['autoinc'])
+                    $this->fields['_autoinc'] = true;
+            }
+        }
+        $this->_fields['_type'] = $type;
+        Tools::fileappend($db, "<?php\treturn " . var_export($this->_fields, true) . ";?>", 'w');
     }
 
     /**
@@ -193,11 +231,7 @@ class Model {
     public function getTableName() {
         if (empty($this->trueTableName)) {
             $tableName = !empty($this->_db_config_prefix) ? $this->_db_config_prefix : '';
-            if (!empty($this->_table_name)) {
-                $tableName .= $this->_table_name;
-            } else {
-                $tableName .= parse_name($this->name);
-            }
+            $tableName .= $this->_table_name;
             $this->trueTableName = strtolower($tableName);
         }
         return (!empty($this->_database) ? $this->_database . '.' : '') . $this->trueTableName;
@@ -233,7 +267,7 @@ class Model {
      */
     static public function getConfig($db = 'local') {
         if (!isset(static::$_db_config_array))
-            static::$_db_config_array = require RUN_DIR . 'config' . DS . Debug::get_env() . DS . 'db.php';
+            static::$_db_config_array = Tools::import(CONF_DIR . 'db.php', true);
         if (isset(static::$_db_config_array[$db])) {
             return static::$_db_config_array[$db];
         }
@@ -249,7 +283,7 @@ class Model {
      * @param type $config
      */
     static public function setConfig(string $db, array $config) {
-        static::$_db_config_array[$db] = $config;
+        self::$_db_config_array[$db] = $config;
     }
 
 }

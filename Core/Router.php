@@ -34,7 +34,7 @@ class Router {
         $url_type_setting = $config->url_type_setting;
         switch ($config->url_type) {
             case self::TRADITION:
-                $url = static::fetchUrl();
+                $url = self::fetchUrl();
                 if ($url == htmlentities($string)) {
                     
                 } else {

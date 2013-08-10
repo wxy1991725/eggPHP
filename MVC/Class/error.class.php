@@ -13,7 +13,7 @@
 class error_class extends Controller {
     //put your code here
     function index_action(){
-        echo 'Hello world';
+        Debug::displayError();
     }
 }
 

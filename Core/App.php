@@ -58,25 +58,23 @@ final class App {
         $config = Config::instance();
         $controller = $router_url_array['class'] . "_class";
         $action = $router_url_array['action'] . "_action";
-        try {
-            if (class_exists($controller)) {
-                $class = Controller::newClass($controller);
-                if (method_exists($class, $action)) {
-                    $config->router_flag = array('class' => $controller, 'action' => $action);
-                    if (empty($router_url_array['parms'])) {
-                        call_user_func(array($class, $action));
-                    } else {
-                        call_user_func_array(array($class, $action), $router_url_array['parms']);
-                    }
+        if (class_exists($controller)) {
+            $class = Controller::newClass($controller);
+            if (method_exists($class, $action)) {
+                $config->router_flag = array('class' => $router_url_array['class'], 'action' => $router_url_array['action']);
+                if (empty($router_url_array['parms'])) {
+                    call_user_func(array($class, $action));
+                    return;
+                } else {
+                    call_user_func_array(array($class, $action), $router_url_array['parms']);
+                    return;
                 }
-            } else {
-                throw new Exception('Url Input ' . $_SERVER['REQUEST_URI']);
             }
-        } catch (Exception $e) {
-            $class = Controller::newClass($config->class_error . "_class");
-            $config->router_flag = array('class' => $config->class_error . "_class", 'action' => $action);
-            call_user_func_array(array($class, $action), (array) $e);
         }
+
+        $class = Controller::newClass($config->class_error . "_class");
+        $config->router_flag = array('class' => $config->class_error, 'action' => $action);
+        call_user_func_array(array($class, $action), (array) $e);
     }
 
     static public function appException(Exception $e) {
@@ -137,8 +135,8 @@ final class App {
             default :
                 break;
         }
-        if (strtolower(substr($classname, -3)) == '_Db') {
-            Tools::import(DRIVER_DIR . $classname . '.php');
+        if (strtolower(substr($classname, -3)) == '_db') {
+            Tools::import(DRIVER_DIR . 'Db' . DS . $classname . '.php');
             return;
         }
 
@@ -182,8 +180,18 @@ final class App {
         define('CLASS_DIR', APP_ROOT . 'MVC' . DS . 'Class' . DS);
         define('MODEL_DIR', APP_ROOT . 'MVC' . DS . 'Model' . DS);
         define('HELPER_DIR', SYS_EXT_DIR . 'Helpers' . DS); //助手文件夹
-        define('MODELCACHE_DIR', RUN_DIR . 'ModelCache' . DS); //字段缓存文件夹
-        define('DRIVER_DIR', APP_ROOT . 'MVC' . DS . 'Dirver' . DS); //驱动存放文件夹
+        /**
+         * 
+         * 字段缓存文件夹
+         * @var string
+         */
+        define('MODELCACHE_DIR', RUN_DIR . 'ModelCache' . DS);
+        /**
+         * 
+         * 驱动存放文件夹
+         * @var string
+         */
+        define('DRIVER_DIR', APP_ROOT . 'MVC' . DS . 'Driver' . DS);
         /**
          * 自定义 错误与载入机制
          */

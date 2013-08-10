@@ -98,35 +98,32 @@ final class Debug {
     }
 
     static public function halt($errno, $errstr, $errfile, $errline) {
-        if ($errno) {
-            // disable error capturing to avoid recursive errors
 
-            $log = "$errstr ($errfile:$errline)\nStack trace:\n";
-            $trace = debug_backtrace();
-            // skip the first 3 stacks as they do not tell the error position
-            if (count($trace) > 3)
-                $trace = array_slice($trace, 3);
+        // disable error capturing to avoid recursive errors
 
-            foreach ($trace as $i => $t) {
-                if (!isset($t['file']))
-                    $t['file'] = 'unknown';
-                if (!isset($t['line']))
-                    $t['line'] = 0;
-                if (!isset($t['function']))
-                    $t['function'] = 'unknown';
-                $log.="#$i {$t['file']}({$t['line']}): ";
-                if (isset($t['object']) && is_object($t['object']))
-                    $log.=get_class($t['object']) . '->';
-                $log.="{$t['function']}()\n";
-            }
-            if (isset($_SERVER['REQUEST_URI']))
-                $log.='REQUEST_URI=' . $_SERVER['REQUEST_URI'];
-            Log::add(Log::$_log_error, $log);
-            if (self::get_env() != 'dev') {
-                $log = '';
-            }
-            return $log;
+        $log = "$errstr ($errfile:$errline)\nStack trace:\n";
+        $trace = debug_backtrace();
+        // skip the first 3 stacks as they do not tell the error position
+
+        foreach ($trace as $i => $t) {
+            if (!isset($t['file']))
+                $t['file'] = 'unknown';
+            if (!isset($t['line']))
+                $t['line'] = 0;
+            if (!isset($t['function']))
+                $t['function'] = 'unknown';
+            $log.="#$i {$t['file']}({$t['line']}): ";
+            if (isset($t['object']) && is_object($t['object']))
+                $log.=get_class($t['object']) . '->';
+            $log.="{$t['function']}()\n";
         }
+        if (isset($_SERVER['REQUEST_URI']))
+            $log.='REQUEST_URI=' . $_SERVER['REQUEST_URI'];
+        Log::add(Log::$_log_error, $log);
+        if (self::get_env() != 'dev') {
+            $log = '';
+        }
+        return $log;
     }
 
 }

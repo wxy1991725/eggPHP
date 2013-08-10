@@ -1,4 +1,5 @@
 <?php
+
 /**
  * 开始运行时间
  */
@@ -14,11 +15,12 @@ define('COMMON_DIR', APP_ROOT . 'Common' . DS);
 define('SYS_EXT_DIR', APP_ROOT . 'Extend' . DS);
 define('RUN_DIR', APP_ROOT . 'Run' . DS);
 
+
 /**
  * 定义运行环境 开发:dev 生产:pro 测试:test
  */
 define('APP_MODE', 'dev');
-
+define('CONF_DIR', APP_ROOT . 'Config' . DS . APP_MODE . DS);
 /**
  * 基础工具类
  */
@@ -26,7 +28,7 @@ require CORE_DIR . 'Tools.php';
 /**
  * 加载配置数组
  */
-$config = Tools::import(RUN_DIR . 'Config' . DS . APP_MODE . DS . 'config.php', true);
+$config = Tools::import(CONF_DIR . 'config.php', true);
 
 /*
  * 核心类导入

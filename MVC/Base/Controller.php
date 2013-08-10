@@ -38,7 +38,7 @@ class Controller {
             $modelname = $this->config->router_flag['class'];
         }
         $id = $modelname . "_" . md5(serialize($config));
-        if (isset($_model[$id])) {
+        if (!isset($_model[$id])) {
             if (class_exists($modelname . "_model")) {
                 $model = $modelname . "_model";
                 $_model[$id] = new $model($modelname, $prefix, $config);

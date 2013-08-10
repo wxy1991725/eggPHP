@@ -4,27 +4,36 @@
  *  仿TP的数据库中间类
  */
 class Db {
-
+    
+    protected $transTimes;
     /**
      * 配置参数
      * @var array 
      */
-    protected static $_db_config_array = array();
+    protected $config = array();
     private $_db_tablename = null;
+
+    /**
+     * 
+     * 是否已连接数据库
+     * @var bolean	
+     */
+    public $connected = false;
 
     /**
      * 当前操作所属的模型名
      * @var string 
      */
     protected $model = '';
-    protected $_db_driver;
-    protected $_db_host;
-    protected $_db_user;
-    protected $_db_root; //数据库用户名
-    protected $_db_database; //数据库名
-    protected $_db_prefix; //前缀
-    protected $_db_charset; //数据库编码
-    protected $_db_type; //数据库类型
+    private $dbType;
+
+    /**
+     * 
+     * 当前连接的ID
+     * @var PDO
+     */
+    protected $_linkID = null;
+    protected $pconnect;
 
     /**
      * 单例模式 存储与读取数据库实例
@@ -33,7 +42,6 @@ class Db {
      * @return Db 数据库实例 
      * @throws Exception
      */
-
     public static function getIntance($config) {
         static $db_fool = array();
         if (empty($config)) {
@@ -59,9 +67,11 @@ class Db {
         $this->dbType = ucwords(strtolower($db_config['db_driver']));
         $class = $this->dbType . '_Db';
         if (class_exists($class)) {
-            $db = $class($db_config);
+            $db = new $class($db_config);
             if ('pdo' != strtolower($db_config['db_driver']))
                 $db->dbType = strtoupper($this->dbType);
+            else
+                $db->dbType = 'MYSQL';
         }else {
             throw new Exception("配置中的数据库驱动不存在");
         }
@@ -72,13 +82,9 @@ class Db {
      * 数据库调试 记录当前SQL
      * @access protected
      */
-    protected function debug() {
-        $this->modelSql[$this->model] = $this->queryStr;
-        $this->model = '_think_';
-        // 记录操作结束时间
-        if (C('DB_SQL_LOG')) {
-            G('queryEndTime');
-            trace($this->queryStr . ' [ RunTime:' . G('queryStartTime', 'queryEndTime', 6) . 's ]', '', 'SQL');
+    protected function debug($str = null) {
+        if (Debug::get_env() == 'dev') {
+            Log::addDebug($this->queryStr . " [ RunTime:" . Debug::time($str) . "s ] [ RunMem:" . Debug::memory($str) /1024 . "k ]");
         }
     }
 
@@ -92,9 +98,18 @@ class Db {
             $config = Model::getConfig();
         }
         if (is_string($config)) {
-            $db_config = $this->parseDSN($config);
+            $config = $this->parseDSN($config);
         }
-        return $db_config;
+        return $config;
+    }
+
+    /**
+     * 获取最近的错误信息
+     * @access public
+     * @return string
+     */
+    public function getError() {
+        return $this->error;
     }
 
     /**
@@ -139,6 +154,24 @@ class Db {
         }
         $dsn['dsn'] = ''; // 兼容配置信息数组
         return $dsn;
+    }
+
+    /**
+     * 析构方法
+     * @access public
+     */
+    public function __destruct() {
+        // 释放查询
+        if ($this->queryID) {
+            $this->free();
+        }
+        // 关闭连接
+        $this->close();
+    }
+
+// 关闭数据库 由驱动类定义
+    public function close() {
+        
     }
 
 }
